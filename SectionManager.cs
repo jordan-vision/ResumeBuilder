@@ -96,6 +96,18 @@ class SectionManager
 
     public static void AddLanguagesContent(ColumnDescriptor columnDescriptor)
     {
-
+        // Bullet points
+        if (ResumeSettings.CURRENTLANGUAGE == Translations.ENGLISH)
+        {
+            columnDescriptor.Item().Text(Translations.Get("english"));
+            columnDescriptor.Item().Text(Translations.Get("french"));
+        }
+        else if (ResumeSettings.CURRENTLANGUAGE == Translations.FRENCH)
+        {
+            columnDescriptor.Item().Text(Translations.Get("french"));
+            columnDescriptor.Item().Text(Translations.Get("english"));
+        }
+        
+        columnDescriptor.Item().Text(Translations.Get("spanish"));
     }
 }

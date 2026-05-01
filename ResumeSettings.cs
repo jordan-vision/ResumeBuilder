@@ -11,7 +11,7 @@ internal class ResumeSettings
         None
     }
 
-    public const string CURRENTLANGUAGE = Translations.ENGLISH;
+    public const string CURRENTLANGUAGE = Translations.FRENCH;
     const JobPositions JOBPOSITION = JobPositions.Dev;
 
     public static bool TryGetPosition(out string text)

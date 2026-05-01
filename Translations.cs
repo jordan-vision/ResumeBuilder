@@ -26,6 +26,11 @@ class Translations
             { "concordia", "CONCORDIA UNIVERSITY" },
             { "compsci", "Bachelor of Computer Science" },
             { "deansList", "Dean’s List 2022-2023 & 2023-2024" },
+
+            // Languages
+            { "english", "English: Fluent" },
+            { "french", "French: Fluent" },
+            { "spanish", "Spanish: Beginner" },
         });
 
         translations.Add(FRENCH, new()
@@ -45,6 +50,11 @@ class Translations
             { "concordia", "UNIVERSITÉ CONCORDIA" },
             { "compsci", "Bachelor en Informatique" },
             { "deansList", "Liste du Doyen 2022-2023 et 2023-2024" },
+
+            // Languages
+            { "english", "Anglais: Courant" },
+            { "french", "Français: Courant" },
+            { "spanish", "Espagnol: Débutant" },
         });
     }
 
