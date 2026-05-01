@@ -14,12 +14,14 @@ class SectionManager
 
     public static void AddSection(ColumnDescriptor column, Sections section)
     {
-        column.Item().BorderBottom(Program.LINEWIDTH).PaddingVertical(Program.LEFTCOLUMNPADDING)
+        column.Item().BorderBottom(Program.LINEWIDTH)
+            .PaddingVertical(Program.LEFTCOLUMNPADDING).PaddingRight(Program.SECTIONPADDING)
             .Column(col =>
             {
                 string title = "";
                 Action<ColumnDescriptor> sectionContent = (c) => { };
 
+                // Get proper section title and content
                 switch (section)
                 {
                     case Sections.CONTACT:
@@ -46,21 +48,30 @@ class SectionManager
                         break;
                 }
 
+                // Section title
                 col.Item().PaddingBottom(Program.SECTIONTITLEPADDING).Text(title)
                     .Bold().FontSize(Program.SECTIONTITLEFONTSIZE);
 
+                // Add content to section
                 sectionContent(col);
             });
     }
 
     public static void AddContactContent(ColumnDescriptor columnDescriptor)
     {
+        // Phone number
         columnDescriptor.Item().Text("+1 438 866 2667"); 
+
+        // Email adress
         columnDescriptor.Item().Text("jordanbossoulcb@gmail.com");
+
+        // Itch link
         columnDescriptor.Item().Text(text =>
         {
             text.Hyperlink("jo-garden.itch.io", "http://jo-garden.itch.io").Underline();
         });
+
+        // LinkedIn link
         columnDescriptor.Item().Text(text =>
         {
             text.Hyperlink("linkedin.com/in/jordan-bossou", "http://linkedin.com/in/jordan-bossou").Underline();
@@ -72,10 +83,10 @@ class SectionManager
         columnDescriptor.Item().Text("2022 - 2025").Bold();
         columnDescriptor.Item().Text(Translations.Get("concordia")).Bold();
 
-        columnDescriptor.Item().Row(row =>
-        {
-            //row.ConstantItem();
-        });
+        // Bulllet points
+        columnDescriptor.Item().Text(Translations.Get("compsci"));
+        columnDescriptor.Item().Text("GPA: 3.71");
+        columnDescriptor.Item().Text(Translations.Get("deansList"));
     }
 
     public static void AddSkillsContent(ColumnDescriptor columnDescriptor)
