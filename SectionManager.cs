@@ -67,17 +67,23 @@ class SectionManager
         });
     }
 
-    public static void AddEducationContent(ColumnDescriptor rowDescriptor)
+    public static void AddEducationContent(ColumnDescriptor columnDescriptor)
+    {
+        columnDescriptor.Item().Text("2022 - 2025").Bold();
+        columnDescriptor.Item().Text(Translations.Get("concordia")).Bold();
+
+        columnDescriptor.Item().Row(row =>
+        {
+            //row.ConstantItem();
+        });
+    }
+
+    public static void AddSkillsContent(ColumnDescriptor columnDescriptor)
     {
 
     }
 
-    public static void AddSkillsContent(ColumnDescriptor rowDescriptor)
-    {
-
-    }
-
-    public static void AddLanguagesContent(ColumnDescriptor rowDescriptor)
+    public static void AddLanguagesContent(ColumnDescriptor columnDescriptor)
     {
 
     }

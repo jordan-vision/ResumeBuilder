@@ -7,7 +7,7 @@ class Translations
 
     private static Dictionary<string, Dictionary<string, string>> translations = new();
 
-    public static string CurrentLanguage = ENGLISH;
+    public static string CurrentLanguage = FRENCH;
 
     public static void SetupTranslations()
     {
@@ -17,7 +17,8 @@ class Translations
             { "educationTitle", "EDUCATION" },
             { "skillsTitle", "SKILLS" },
             { "languagesTitle", "LANGUAGES" },
-
+            { "concordia", "CONCORDIA UNIVERSITY" },
+            { "compsci", "Bachelor of Computer Science" },
         });
 
         translations.Add(FRENCH, new()
@@ -26,7 +27,8 @@ class Translations
             { "educationTitle", "ÉDUCATION" },
             { "skillsTitle", "COMPÉTENCES" },
             { "languagesTitle", "LANGUES" },
-
+            { "concordia", "UNIVERSITÉ CONCORDIA" },
+            { "compsci", "Bachelor en Informatique" },
         });
     }
 

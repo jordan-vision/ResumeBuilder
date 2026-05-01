@@ -5,17 +5,18 @@ using ResumeBuilder;
 
 public class Program
 {
-    const int BODYPADDING = 18;
-    const int FONTSIZE = 11;
-    public const int LEFTCOLUMNPADDING = 12;
-    public const int LINEWIDTH = 1;
-    const int NAMEFONTSIZE = 28;
-    const int PAGEMARGIN = 36;
-    public const int SECTIONTITLEFONTSIZE = 14;
-    public const int SECTIONTITLEPADDING = 8;
-    const float SIDEBARFACTOR = 1.0f / 3.0f;
-    const int TITLEFONTSIZE = 12;
-    const int TITLEPADDING = 12;
+    const int BODYPADDING = 18; // Space between title and body in points
+    const string FONTCOLOR = "575757"; // Hex code of text color unless otherwise specified
+    const int FONTSIZE = 11; // Size of all text unless otherwise specified, in points
+    public const int LEFTCOLUMNPADDING = 12; // Space between sections in the left column in points
+    public const int LINEWIDTH = 1; // Width of borders in points
+    const int NAMEFONTSIZE = 28; // Size of name in points
+    const int PAGEMARGIN = 36; // Margin in points
+    public const int SECTIONTITLEFONTSIZE = 14; // Sized of the name of a section in points
+    public const int SECTIONTITLEPADDING = 8; // Space below the name of a section in points
+    const float SIDEBARFACTOR = 1.0f / 3.0f; // Portion of the page that is the left column, between 0 and 1
+    const int TITLEFONTSIZE = 12; // Size of job title in points
+    const int TITLEPADDING = 12; // Space above and below name and job title block in points
     
     public static void Main()
     {
@@ -29,7 +30,7 @@ public class Program
                 page.Size(PageSizes.Letter);
                 page.Margin(PAGEMARGIN);
                 page.PageColor(Colors.White);
-                page.DefaultTextStyle(x => x.FontSize(FONTSIZE));
+                page.DefaultTextStyle(x => x.FontSize(FONTSIZE).FontColor(FONTCOLOR));
 
                 page.Header().BorderHorizontal(LINEWIDTH)
                     .PaddingVertical(TITLEPADDING)
