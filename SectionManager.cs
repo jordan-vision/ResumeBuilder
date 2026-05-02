@@ -9,13 +9,15 @@ class SectionManager
         CONTACT,
         EDUCATION,
         SKILLS,
-        LANGUAGES
+        LANGUAGES,
+        WORKEXPERIENCE,
+        VOLUNTEERING
     }
 
     public static void AddSection(ColumnDescriptor column, Sections section)
     {
         column.Item().BorderBottom(FormattingSettings.LINEWIDTH)
-            .PaddingVertical(FormattingSettings.LEFTCOLUMNPADDING).PaddingRight(FormattingSettings.SECTIONPADDING)
+            .PaddingVertical(FormattingSettings.LEFTCOLUMNPADDING).PaddingHorizontal(FormattingSettings.SECTIONPADDING)
             .Column(col =>
             {
                 string title = "";
@@ -42,6 +44,15 @@ class SectionManager
                     case Sections.LANGUAGES:
                         title = Translations.Get("languagesTitle");
                         sectionContent = c => AddLanguagesContent(c);
+                        break;
+
+                    case Sections.WORKEXPERIENCE:
+                        title = Translations.Get("workExperienceTitle");
+                        sectionContent = c => AddWorkExperienceContent(c);
+                        break;
+
+                    case Sections.VOLUNTEERING:
+                        title = Translations.Get("volunteeringTitle");
                         break;
 
                     default:
@@ -171,5 +182,38 @@ class SectionManager
         }
 
         Utilities.BulletPoint(columnDescriptor, Translations.Get("spanish"));
+    }
+
+    public static void AddWorkExperienceContent(ColumnDescriptor columnDescriptor)
+    {
+        JobManager.SetupJobs();
+
+        foreach (var job in JobManager.WorkExperience)
+        {
+            if (!job.Include)
+            {
+                continue;
+            }
+
+            columnDescriptor.Item().Text(job.Company).Bold();
+            columnDescriptor.Item().Row(row =>
+            {
+                foreach (var position in job.Positions)
+                {
+                    row.RelativeItem().Text(Translations.Get(position.Title));
+                    row.RelativeItem().Text(Translations.Dates(position.StartMonth, position.EndMonth)).AlignRight();
+
+                    if (!job.ShowDetails)
+                    {
+                        continue;
+                    }
+
+                    foreach (var accomplishment in position.Accomplishments)
+                    {
+                        Utilities.BulletPoint(columnDescriptor, Translations.Get(accomplishment));
+                    }
+                }
+            });
+        }
     }
 }

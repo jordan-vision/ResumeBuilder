@@ -60,7 +60,12 @@ public class Program
                             });
 
                         // Right column sections
-                        x.RelativeItem(1 - FormattingSettings.SIDEBARFACTOR);
+                        x.RelativeItem(1 - FormattingSettings.SIDEBARFACTOR)
+                            .Column(y => 
+                            {
+                                SectionManager.AddSection(y, SectionManager.Sections.WORKEXPERIENCE);
+                                SectionManager.AddSection(y, SectionManager.Sections.VOLUNTEERING);
+                            });
                     });
             });
         })
