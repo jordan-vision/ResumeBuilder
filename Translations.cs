@@ -27,6 +27,10 @@ class Translations
             { "compsci", "Bachelor of Computer Science" },
             { "deansList", "Dean’s List 2022-2023 & 2023-2024" },
 
+            // Skills
+            { "fullstack", "Fullstack Development" },
+            { "problem", "Problem Solving" },
+
             // Languages
             { "english", "English: Fluent" },
             { "french", "French: Fluent" },
@@ -50,6 +54,10 @@ class Translations
             { "concordia", "UNIVERSITÉ CONCORDIA" },
             { "compsci", "Bachelor en Informatique" },
             { "deansList", "Liste du Doyen 2022-2023 et 2023-2024" },
+
+            // Skills
+            { "fullstack", "Développement Fullstack" },
+            { "problem", "Résolution de problèmes" },
 
             // Languages
             { "english", "Anglais: Courant" },

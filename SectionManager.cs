@@ -14,8 +14,8 @@ class SectionManager
 
     public static void AddSection(ColumnDescriptor column, Sections section)
     {
-        column.Item().BorderBottom(Program.LINEWIDTH)
-            .PaddingVertical(Program.LEFTCOLUMNPADDING).PaddingRight(Program.SECTIONPADDING)
+        column.Item().BorderBottom(FormattingSettings.LINEWIDTH)
+            .PaddingVertical(FormattingSettings.LEFTCOLUMNPADDING).PaddingRight(FormattingSettings.SECTIONPADDING)
             .Column(col =>
             {
                 string title = "";
@@ -49,8 +49,8 @@ class SectionManager
                 }
 
                 // Section title
-                col.Item().PaddingBottom(Program.SECTIONTITLEPADDING).Text(title)
-                    .Bold().FontSize(Program.SECTIONTITLEFONTSIZE);
+                col.Item().PaddingBottom(FormattingSettings.SECTIONTITLEPADDING).Text(title)
+                    .Bold().FontSize(FormattingSettings.SECTIONTITLEFONTSIZE);
 
                 // Add content to section
                 sectionContent(col);
@@ -60,21 +60,31 @@ class SectionManager
     public static void AddContactContent(ColumnDescriptor columnDescriptor)
     {
         // Phone number
-        columnDescriptor.Item().Text("+1 438 866 2667"); 
+        Utilities.BulletPoint(columnDescriptor, "+1 438 866 2667", "Resources/phone-icon.svg");
 
         // Email adress
-        columnDescriptor.Item().Text("jordanbossoulcb@gmail.com");
+        Utilities.BulletPoint(columnDescriptor, "jordanbossoulcb@gmail.com", "Resources/email-icon.svg");
 
         // Itch link
-        columnDescriptor.Item().Text(text =>
+        columnDescriptor.Item().Row(row =>
         {
-            text.Hyperlink("jo-garden.itch.io", "http://jo-garden.itch.io").Underline();
+            row.ConstantItem(FormattingSettings.FONTSIZE).Svg("Resources/website-icon.svg");
+            row.RelativeItem().Text(text =>
+            {
+                text.Span(" ");
+                text.Hyperlink("jo-garden.itch.io", "http://jo-garden.itch.io").Underline();
+            });
         });
 
         // LinkedIn link
-        columnDescriptor.Item().Text(text =>
+        columnDescriptor.Item().Row(row =>
         {
-            text.Hyperlink("linkedin.com/in/jordan-bossou", "http://linkedin.com/in/jordan-bossou").Underline();
+            row.ConstantItem(FormattingSettings.FONTSIZE).Svg("Resources/linkedin-icon.svg");
+            row.RelativeItem().Text(text =>
+            {
+                text.Span(" ");
+                text.Hyperlink("linkedin.com/in/jordan-bossou", "http://linkedin.com/in/jordan-bossou").Underline();
+            });
         });
     }
 
@@ -84,14 +94,66 @@ class SectionManager
         columnDescriptor.Item().Text(Translations.Get("concordia")).Bold();
 
         // Bulllet points
-        columnDescriptor.Item().Text(Translations.Get("compsci"));
-        columnDescriptor.Item().Text("GPA: 3.71");
-        columnDescriptor.Item().Text(Translations.Get("deansList"));
+        Utilities.BulletPoint(columnDescriptor, Translations.Get("compsci"));
+        Utilities.BulletPoint(columnDescriptor, "GPA: 3.71");
+        Utilities.BulletPoint(columnDescriptor, Translations.Get("deansList"));
     }
 
     public static void AddSkillsContent(ColumnDescriptor columnDescriptor)
     {
+        // Add hard skills
+        foreach (var skill in Skills.RELEVANTHARDSKILLS)
+        {
+            Utilities.BulletPoint(columnDescriptor, Translations.Get(skill));
+        }
 
+        // Add programming languages as a single bullet point
+        var languages = String.Join(", ", Skills.RELEVANTLANGUAGES);
+        if (languages != null)
+        {
+            Utilities.BulletPoint(columnDescriptor, languages);
+        }
+
+        // Add frameworks and libraries as a single bullet point
+        var frameworks = String.Join(", ", Skills.RELEVANTFRAMEWORKS);
+        if (frameworks != null)
+        {
+            Utilities.BulletPoint(columnDescriptor, frameworks);
+        }
+
+        // Add IDEs as a single bullet point
+        var ides = String.Join(", ", Skills.RELEVANTIDES);
+        if (ides != null)
+        {
+            Utilities.BulletPoint(columnDescriptor, ides);
+        }
+
+        // Add game engines as a single bullet point
+        var gameEngines = String.Join(", ", Skills.RELEVANTGAMEENGINES);
+        if (gameEngines != null)
+        {
+            Utilities.BulletPoint(columnDescriptor, gameEngines);
+        }
+
+        // Add OSes as a single bullet point
+        var os = String.Join(", ", Skills.RELEVANTOS);
+        if (os != null)
+        {
+            Utilities.BulletPoint(columnDescriptor, os);
+        }
+
+        // Add other software as a single bullet point
+        var software = String.Join(", ", Skills.RELEVANTSOFTWARE);
+        if (software != null)
+        {
+            Utilities.BulletPoint(columnDescriptor, software);
+        }
+
+        // Add soft skills
+        foreach (var skill in Skills.RELEVANTSOFTSKILLS)
+        {
+            Utilities.BulletPoint(columnDescriptor, Translations.Get(skill));
+        }
     }
 
     public static void AddLanguagesContent(ColumnDescriptor columnDescriptor)
@@ -99,15 +161,15 @@ class SectionManager
         // Bullet points
         if (ResumeSettings.CURRENTLANGUAGE == Translations.ENGLISH)
         {
-            columnDescriptor.Item().Text(Translations.Get("english"));
-            columnDescriptor.Item().Text(Translations.Get("french"));
+            Utilities.BulletPoint(columnDescriptor, Translations.Get("english"));
+            Utilities.BulletPoint(columnDescriptor, Translations.Get("french"));
         }
         else if (ResumeSettings.CURRENTLANGUAGE == Translations.FRENCH)
         {
-            columnDescriptor.Item().Text(Translations.Get("french"));
-            columnDescriptor.Item().Text(Translations.Get("english"));
+            Utilities.BulletPoint(columnDescriptor, Translations.Get("french"));
+            Utilities.BulletPoint(columnDescriptor, Translations.Get("english"));
         }
-        
-        columnDescriptor.Item().Text(Translations.Get("spanish"));
+
+        Utilities.BulletPoint(columnDescriptor, Translations.Get("spanish"));
     }
 }
