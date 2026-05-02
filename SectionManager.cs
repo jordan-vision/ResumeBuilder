@@ -17,7 +17,7 @@ class SectionManager
     public static void AddSection(ColumnDescriptor column, Sections section)
     {
         column.Item().BorderBottom(FormattingSettings.LINEWIDTH)
-            .PaddingVertical(FormattingSettings.LEFTCOLUMNPADDING).PaddingHorizontal(FormattingSettings.SECTIONPADDING)
+            .PaddingVertical(FormattingSettings.SECTIONPADDING).PaddingHorizontal(FormattingSettings.MIDDLEPADDING)
             .Column(col =>
             {
                 string title = "";

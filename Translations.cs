@@ -22,7 +22,7 @@ class Translations
             { "skillsTitle", "SKILLS" },
             { "languagesTitle", "LANGUAGES" },
             { "workExperienceTitle", "WORK EXPERIENCE" },
-            { "volunteeringTitle", "VOLUNTEERING" },
+            { "volunteeringTitle", "VOLUNTEERING & PERSONAL PROJECTS" },
 
             // Education
             { "concordia", "CONCORDIA UNIVERSITY" },
@@ -40,7 +40,9 @@ class Translations
 
             // Vretta
             { "softwaredev", "Software Developer" },
-            { "vrettaStudents", "Developed online test designs platforms used by over 800,000 K-12 students in 4 provinces" },
+            { "vrettaStudents", "Developed an online platform for the purpose of designing assessments for over 800,000 K-12 students in 4 provinces, with Angular" },
+            { "vrettasql", "Used SQL to summarize over 100 gigabytes of data, document various data structures, and reinforce the test design audit system" },
+            { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, including unique scoring systems, UI, and test formats" },
         });
 
         translations.Add(FRENCH, new()
@@ -56,7 +58,7 @@ class Translations
             { "skillsTitle", "COMPÉTENCES" },
             { "languagesTitle", "LANGUES" },
             { "workExperienceTitle", "EXPÉRIENCE PROFESSIONELLE" },
-            { "volunteeringTitle", "VOLONTARIAT" },
+            { "volunteeringTitle", "VOLONTARIAT ET PROJETS PERSONNELS" },
 
             // Educaation
             { "concordia", "UNIVERSITÉ CONCORDIA" },
@@ -74,7 +76,9 @@ class Translations
 
             // Vretta
             { "softwaredev", "Développeur de Logiciels" },
-            { "vrettaStudents", "Développer des plateformes de conception d'évaluations scolaires utilisées par plus de 800,000 étudiants dans 4 provinces" },
+            { "vrettaStudents", "Développer une plateforme pour la conception d'évaluations pour plus de 800,000 élèves en école primaire et secondaire dans 4 provinces, avec Angular" },
+            { "vrettasql", "Utiliser SQL pour synthétizer plus de 100 gigaoctets de données, documenter plusieures structures de données, and renforcer le système d'audit d'évaluations" },
+            { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités pour chaque agence, incluant différents systèmes de notation, interfaces, et formats" },
         });
     }
 
