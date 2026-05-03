@@ -186,34 +186,41 @@ class SectionManager
 
     public static void AddWorkExperienceContent(ColumnDescriptor columnDescriptor)
     {
+        // Get all jobs
         JobManager.SetupJobs();
 
         foreach (var job in JobManager.WorkExperience)
         {
+            // Skip the ones I don't wish to include
             if (!job.Include)
             {
                 continue;
             }
 
-            columnDescriptor.Item().Text(job.Company).Bold();
+            columnDescriptor.Item().Text(Translations.Get(job.Company)).Bold(); // Company name
             columnDescriptor.Item().Row(row =>
             {
                 foreach (var position in job.Positions)
                 {
+                    // Position and start/end
                     row.RelativeItem().Text(Translations.Get(position.Title));
                     row.RelativeItem().Text(Translations.Dates(position.StartMonth, position.EndMonth)).AlignRight();
 
+                    // Move on to the next job if I don't wish to include achievements
                     if (!job.ShowDetails)
                     {
                         continue;
                     }
 
+                    // Achievements, in bullet points
                     foreach (var accomplishment in position.Accomplishments)
                     {
                         Utilities.BulletPoint(columnDescriptor, Translations.Get(accomplishment));
                     }
                 }
             });
+            // Add a bit of space after job
+            columnDescriptor.Item().PaddingBottom(FormattingSettings.JOBPADDING);
         }
     }
 }

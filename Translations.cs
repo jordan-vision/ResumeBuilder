@@ -39,10 +39,15 @@ class Translations
             { "spanish", "Spanish: Beginner" },
 
             // Vretta
+            { "vretta", "Vretta" },
             { "softwaredev", "Software Developer" },
-            { "vrettaStudents", "Developed an online platform for the purpose of designing assessments for over 800,000 K-12 students in 4 provinces, with Angular" },
+            { "vrettaStudents", "Developed an online platform with the purpose of designing assessments for over 800,000 students in 4 provinces, with Angular" },
             { "vrettasql", "Used SQL to summarize over 100 gigabytes of data, document various data structures, and reinforce the test design audit system" },
-            { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, including unique scoring systems, UI, and test formats" },
+            { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, including unique scoring systems" },
+
+            // Hogg
+            { "hogg", "Hogg Hardware" },
+            { "clerk", "Clerk" },
         });
 
         translations.Add(FRENCH, new()
@@ -75,10 +80,15 @@ class Translations
             { "spanish", "Espagnol: Débutant" },
 
             // Vretta
+            { "vretta", "Vretta" },
             { "softwaredev", "Développeur de Logiciels" },
-            { "vrettaStudents", "Développer une plateforme pour la conception d'évaluations pour plus de 800,000 élèves en école primaire et secondaire dans 4 provinces, avec Angular" },
-            { "vrettasql", "Utiliser SQL pour synthétizer plus de 100 gigaoctets de données, documenter plusieures structures de données, and renforcer le système d'audit d'évaluations" },
-            { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités pour chaque agence, incluant différents systèmes de notation, interfaces, et formats" },
+            { "vrettaStudents", "Développer une plateforme de conception d'évaluations pour plus de 800,000 élèves dans 4 provinces, avec Angular" },
+            { "vrettasql", "Utiliser SQL pour synthétizer et documenter plus de 100 gigaoctets de données, et renforcer le système d'audit d'évaluations" },
+            { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, dont différents systèmes de notation" },
+
+            // Hogg
+            { "hogg", "Quincaillerie Hogg" },
+            { "clerk", "Commis" },
         });
     }
 
