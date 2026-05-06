@@ -5,8 +5,16 @@ class JobManager
     public static List<Job> WorkExperience = [];
     public static List<Job> Volunteering = [];
 
+    static bool jobsSetup = false;
+    static bool volunteeringSetup = false;
+
     public static void SetupJobs()
     {
+        if (jobsSetup)
+        {
+            return;
+        }
+
         // Vretta
         Position vrettaSoftware = new("softwaredev", (1, 26), (4, 26));
         Job vretta = new("vretta");
@@ -71,5 +79,31 @@ class JobManager
         genetec.Include = true;
         genetec.ShowDetails = true;
         // ---- EDIT END HERE ----
+
+        jobsSetup = true;
+    }
+
+    public static void SetupVolunteering()
+    {
+        if (volunteeringSetup)
+        {
+            return;
+        }
+
+        // CGD
+        Position cgdHead = new("techhead", (7, 25), (12, 25));
+        Position cgdStaff = new("techstaff", (6, 24), (7, 25));
+        Job cgd = new("cgd");
+        cgd.Positions.Add(cgdHead);
+        cgd.Positions.Add(cgdStaff);
+        Volunteering.Add(cgd);
+
+        // ---- EDIT START HERE ----
+        // CGD
+        cgd.Include = true;
+        cgd.ShowDetails = true;
+        // ---- EDIT END HERE ----
+
+        volunteeringSetup = true;
     }
 }

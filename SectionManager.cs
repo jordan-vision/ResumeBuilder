@@ -48,11 +48,12 @@ class SectionManager
 
                     case Sections.WORKEXPERIENCE:
                         title = Translations.Get("workExperienceTitle");
-                        sectionContent = c => AddWorkExperienceContent(c);
+                        sectionContent = c => AddExperienceContent(c, JobManager.WorkExperience);
                         break;
 
                     case Sections.VOLUNTEERING:
                         title = Translations.Get("volunteeringTitle");
+                        sectionContent = c => AddExperienceContent(c, JobManager.Volunteering);
                         break;
 
                     default:
@@ -184,12 +185,13 @@ class SectionManager
         Utilities.BulletPoint(columnDescriptor, Translations.Get("spanish"));
     }
 
-    public static void AddWorkExperienceContent(ColumnDescriptor columnDescriptor)
+    public static void AddExperienceContent(ColumnDescriptor columnDescriptor, List<Job> experience)
     {
         // Get all jobs
         JobManager.SetupJobs();
+        JobManager.SetupVolunteering();
 
-        var jobList = JobManager.WorkExperience.Where(x => x.Include);
+        var jobList = experience.Where(x => x.Include);
         
         if (ResumeSettings.SORTINGMETHOD == ResumeSettings.SortingMethod.Start) {
             jobList = jobList.OrderByDescending(x => x.Positions.Last().StartMonth.Item1)
@@ -198,16 +200,16 @@ class SectionManager
 
         else if (ResumeSettings.SORTINGMETHOD == ResumeSettings.SortingMethod.End)
         {
-            jobList = jobList.OrderByDescending(x => x.Positions.Last().EndMonth.Item1)
-            .OrderByDescending(x => x.Positions.Last().EndMonth.Item2);
+            jobList = jobList.OrderByDescending(x => x.Positions.First().EndMonth.Item1)
+            .OrderByDescending(x => x.Positions.First().EndMonth.Item2);
         }
 
         foreach (var job in jobList)
         {
             columnDescriptor.Item().Text(Translations.Get(job.Company)).Bold(); // Company name
-            columnDescriptor.Item().Row(row =>
+            foreach (var position in job.Positions)
             {
-                foreach (var position in job.Positions)
+                columnDescriptor.Item().Row(row =>
                 {
                     // Position and start/end
                     row.RelativeItem().Text(Translations.Get(position.Title));
@@ -216,7 +218,7 @@ class SectionManager
                     // Move on to the next job if I don't wish to include achievements
                     if (!job.ShowDetails)
                     {
-                        continue;
+                        return;
                     }
 
                     // Achievements, in bullet points
@@ -224,8 +226,8 @@ class SectionManager
                     {
                         Utilities.BulletPoint(columnDescriptor, Translations.Get(accomplishment));
                     }
-                }
-            });
+                });
+            }
             // Add a bit of space after job
             columnDescriptor.Item().PaddingBottom(FormattingSettings.JOBPADDING);
         }

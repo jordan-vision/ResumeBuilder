@@ -64,6 +64,11 @@ class Translations
             // Genetec
             { "genetec", "Genetec" },
             { "softwaredevintern", "Software Developer Intern" },
+
+            // CGD
+            { "cgd", "Concordia Game Development" },
+            { "techhead", "Head of Technology" },
+            { "techstaff", "Tech Staff" },
         });
 
         translations.Add(FRENCH, new()
@@ -121,6 +126,11 @@ class Translations
             // Genetec
             { "genetec", "Genetec" },
             { "softwaredevintern", "Stagiaire en Développement de Logiciels" },
+
+            // CGD
+            { "cgd", "Concordia Game Development" },
+            { "techhead", "Directeur Technique" },
+            { "techstaff", "Personnel Technique" },
         });
     }
 
