@@ -189,14 +189,21 @@ class SectionManager
         // Get all jobs
         JobManager.SetupJobs();
 
-        foreach (var job in JobManager.WorkExperience)
-        {
-            // Skip the ones I don't wish to include
-            if (!job.Include)
-            {
-                continue;
-            }
+        var jobList = JobManager.WorkExperience.Where(x => x.Include);
+        
+        if (ResumeSettings.SORTINGMETHOD == ResumeSettings.SortingMethod.Start) {
+            jobList = jobList.OrderByDescending(x => x.Positions.Last().StartMonth.Item1)
+            .OrderByDescending(x => x.Positions.Last().StartMonth.Item2);
+        }
 
+        else if (ResumeSettings.SORTINGMETHOD == ResumeSettings.SortingMethod.End)
+        {
+            jobList = jobList.OrderByDescending(x => x.Positions.Last().EndMonth.Item1)
+            .OrderByDescending(x => x.Positions.Last().EndMonth.Item2);
+        }
+
+        foreach (var job in jobList)
+        {
             columnDescriptor.Item().Text(Translations.Get(job.Company)).Bold(); // Company name
             columnDescriptor.Item().Row(row =>
             {

@@ -3,6 +3,7 @@ Change these for every new resume:
 ResumeSettings.cs:
 - CURRENTLANGUAGE
 - JOBPOSITION
+- SORTINGMETHOD
 
 Skills.cs:
 - RELEVANTHARDSKILLS

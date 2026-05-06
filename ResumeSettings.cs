@@ -11,10 +11,17 @@ internal class ResumeSettings
         None
     }
 
+    public enum SortingMethod
+    {
+        Start,
+        End
+    }
+
 
     // ---- EDIT START HERE ----
     public const string CURRENTLANGUAGE = Translations.FRENCH;
     const JobPositions JOBPOSITION = JobPositions.Dev;
+    public const SortingMethod SORTINGMETHOD = SortingMethod.End;
     // ---- EDIT END HERE ----
 
     public static bool TryGetPosition(out string text)

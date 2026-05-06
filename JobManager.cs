@@ -19,10 +19,34 @@ class JobManager
         hogg.Positions.Add(hoggClerk);
         WorkExperience.Add(hogg);
 
+        // Concordia
+        Position concordiaTutor = new("mathtutor", (1, 23), (12, 25));
+        Job concordia = new("concordiawork");
+        concordia.Positions.Add(concordiaTutor);
+        WorkExperience.Add(concordia);
+
+        // TransPerfect
+        Position transperfectannotator = new("dataannotator", (6, 25), (7, 25));
+        Job transperfect = new("transperfect");
+        transperfect.Positions.Add(transperfectannotator);
+        WorkExperience.Add(transperfect);
+
+        // Ubisoft
+        Position ubisoftIntern = new("toolsprogrammerintern", (5, 24), (8, 24));
+        Job ubisoft = new("ubisoft");
+        ubisoft.Positions.Add(ubisoftIntern);
+        WorkExperience.Add(ubisoft);
+
+        // Genetec
+        Position genetecIntern = new("softwaredevintern", (9, 23), (12, 23));
+        Job genetec = new("genetec");
+        genetec.Positions.Add(genetecIntern);
+        WorkExperience.Add(genetec);
+
         // ---- EDIT START HERE ----
         // Vretta
         vretta.Include = true;
-        vretta.ShowDetails = false;
+        vretta.ShowDetails = true;
         vrettaSoftware.Accomplishments.Add("vrettaStudents");
         vrettaSoftware.Accomplishments.Add("vrettasql");
         vrettaSoftware.Accomplishments.Add("vrettagov");
@@ -30,6 +54,22 @@ class JobManager
         //Hogg
         hogg.Include = true;
         hogg.ShowDetails = true;
+
+        // Concordia
+        concordia.Include = true;
+        concordia.ShowDetails = true;
+
+        // TransPerfect
+        transperfect.Include = true;
+        transperfect.ShowDetails = true;
+
+        // Ubisoft
+        ubisoft.Include = true;
+        ubisoft.ShowDetails = true;
+
+        // Genetec
+        genetec.Include = true;
+        genetec.ShowDetails = true;
         // ---- EDIT END HERE ----
     }
 }

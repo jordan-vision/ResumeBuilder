@@ -48,6 +48,22 @@ class Translations
             // Hogg
             { "hogg", "Hogg Hardware" },
             { "clerk", "Clerk" },
+
+            // Concordia
+            { "concordiawork", "Concordia University" },
+            { "mathtutor", "Math Tutor" },
+
+            // TransPerfect
+            { "transperfect", "TransPerfect" },
+            { "dataannotator", "Language Data Annotator" },
+
+            // Ubisoft
+            { "ubisoft", "Ubisoft" },
+            { "toolsprogrammerintern", "Tools Programmer Intern" },
+
+            // Genetec
+            { "genetec", "Genetec" },
+            { "softwaredevintern", "Software Developer Intern" },
         });
 
         translations.Add(FRENCH, new()
@@ -89,6 +105,22 @@ class Translations
             // Hogg
             { "hogg", "Quincaillerie Hogg" },
             { "clerk", "Commis" },
+
+            // Concordia
+            { "concordiawork", "Université Concordia" },
+            { "mathtutor", "Tuteur de Mathénatiques" },
+
+            // TransPerfect
+            { "transperfect", "TransPerfect" },
+            { "dataannotator", "Annotateur de Données Linguistiques" },
+
+            // Ubisoft
+            { "ubisoft", "Ubisoft" },
+            { "toolsprogrammerintern", "Stagiare en Programmation d'Outils" },
+
+            // Genetec
+            { "genetec", "Genetec" },
+            { "softwaredevintern", "Stagiaire en Développement de Logiciels" },
         });
     }
 
