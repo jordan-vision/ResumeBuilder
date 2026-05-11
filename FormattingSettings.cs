@@ -9,7 +9,7 @@ class FormattingSettings
     public const int FONTSIZE = 11; // Size of all text unless otherwise specified, in points
     public const int JOBPADDING = 4; // Space betweeen each job listed, in points
     public const int LINEWIDTH = 1; // Width of borders, in points
-    public const int MIDDLEPADDING = 4; // Space on left or right of a section, in points
+    public const int MIDDLEPADDING = 8; // Space on left or right of a section, in points
     public const int NAMEFONTSIZE = 28; // Size of name, in points
     public const int PAGEMARGIN = 36; // Margin, in points
     public const int SECTIONPADDING = 12; // Space between sections, in points

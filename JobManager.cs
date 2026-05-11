@@ -98,10 +98,40 @@ class JobManager
         cgd.Positions.Add(cgdStaff);
         Volunteering.Add(cgd);
 
+        // Music Club
+        Position musicClubCofounder = new("cofounderexecutive", (10, 22), (9, 25));
+        Job musicClub = new("musicclub");
+        musicClub.Positions.Add(musicClubCofounder);
+        Volunteering.Add(musicClub);
+
+        // Game Lab
+        Position gameLabProgrammer = new("uiprogrammer", (2, 24), (4, 24));
+        Job gameLab = new("gamelab");
+        gameLab.Positions.Add(gameLabProgrammer);
+        Volunteering.Add(gameLab);
+
+        // Somm
+        Position sommTeacher = new("pianoteacher", (2, 22), (4, 22));
+        Job somm = new("somm");
+        somm.Positions.Add(sommTeacher);
+        Volunteering.Add(somm);
+
         // ---- EDIT START HERE ----
         // CGD
         cgd.Include = true;
         cgd.ShowDetails = true;
+
+        // Music Club
+        musicClub.Include = true;
+        musicClub.ShowDetails = true;
+
+        // Game Lab
+        gameLab.Include = true;
+        gameLab.ShowDetails = true;
+
+        // Somm
+        somm.Include = true;
+        somm.ShowDetails = true;
         // ---- EDIT END HERE ----
 
         volunteeringSetup = true;

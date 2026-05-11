@@ -69,6 +69,18 @@ class Translations
             { "cgd", "Concordia Game Development" },
             { "techhead", "Head of Technology" },
             { "techstaff", "Tech Staff" },
+
+            // Music club
+            { "musicclub", "Concordia Music Club" },
+            { "cofounderexecutive", "Co-founder & Executive" },
+
+            // Game Lab
+            { "gamelab", "Ubisoft Game Lab" },
+            { "uiprogrammer", "UI Programmer" },
+
+            // Somm
+            { "somm", "School of Music Montreal" },
+            { "pianoteacher", "Piano Teacher" },
         });
 
         translations.Add(FRENCH, new()
@@ -131,6 +143,18 @@ class Translations
             { "cgd", "Concordia Game Development" },
             { "techhead", "Directeur Technique" },
             { "techstaff", "Personnel Technique" },
+
+            // Music club
+            { "musicclub", "Club de Musique de Concordia" },
+            { "cofounderexecutive", "Co-fondateur et Membre du Corps Exécutif" },
+
+            // Game Lab
+            { "gamelab", "Concours Universitaire Ubisoft" },
+            { "uiprogrammer", "Programmeur d'Interface Utilisateur" },
+
+            // Somm
+            { "somm", "School of Music Montreal" },
+            { "pianoteacher", "Professeur de Piano" },
         });
     }
 
