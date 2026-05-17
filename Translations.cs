@@ -41,9 +41,9 @@ class Translations
             // Vretta
             { "vretta", "Vretta" },
             { "softwaredev", "Software Developer" },
-            { "vrettaStudents", "Developed an online platform with the purpose of designing assessments for over 800,000 students in 4 provinces, with Angular" },
-            { "vrettasql", "Used SQL to summarize over 100 gigabytes of data, document various data structures, and reinforce the test design audit system" },
-            { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, including unique scoring systems" },
+            { "vrettaStudents", "Developed an online platform with Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
+            { "vrettasql", "Scripted SQL queries and API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of data between the database, the back-end, and the front-end" },
+            { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, ensuring customer satisfaction" },
 
             // Hogg
             { "hogg", "Hogg Hardware" },
@@ -60,15 +60,23 @@ class Translations
             // Ubisoft
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Tools Programmer Intern" },
+            { "ubisoftcicd", "Developed an ASP.NET web app in C# that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses" },
+            { "ubisoftagile", "Worked within an Agile team, actively contributed in discussing improvements, and used GitLab for version control" },
+            { "ubisoftblazor", "Constructed the app's UI from the ground up in HTML and CSS, through the Blazor framework" },
 
             // Genetec
             { "genetec", "Genetec" },
             { "softwaredevintern", "Software Developer Intern" },
+            { "geneteccamera", "Developed the infrastructure for two security camera models in .NET C#, one built upon Windows and the other upon Linux" },
+            { "genetecport", "Ported the web portal for managing these cameras, coded in JavaScript, from React to Angular" },
+            { "genetecbilingual", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
             { "techhead", "Head of Technology" },
+            { "cgdwebsite", "Managed and contributed to the development of the official Concordia Game Development website, using React and TypeScript" },
             { "techstaff", "Tech Staff" },
+            { "cgddiscord", "Developped a Discord bot for staff productivity in Python" },
 
             // Music club
             { "musicclub", "Concordia Music Club" },
@@ -115,9 +123,9 @@ class Translations
             // Vretta
             { "vretta", "Vretta" },
             { "softwaredev", "Développeur de Logiciels" },
-            { "vrettaStudents", "Développer une plateforme de conception d'évaluations pour plus de 800,000 élèves dans 4 provinces, avec Angular" },
-            { "vrettasql", "Utiliser SQL pour synthétizer et documenter plus de 100 gigaoctets de données, et renforcer le système d'audit d'évaluations" },
-            { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, dont différents systèmes de notation" },
+            { "vrettaStudents", "Développer une plateforme de conception d'évaluations avec Angular, pour plus de 800,000 élèves dans 4 provinces" },
+            { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données entre la base de données, le back-end, et le front-end" },
+            { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, assurant ainsi la satisfaction des clients" },
 
             // Hogg
             { "hogg", "Quincaillerie Hogg" },
@@ -134,10 +142,16 @@ class Translations
             // Ubisoft
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Stagiare en Programmation d'Outils" },
+            { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
+            { "ubisoftagile", "Travailler dans une équipe Agille, discuter des potentielles améliorations, et utiliser GitLab pour le contrôle de versions" },
+            { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
 
             // Genetec
             { "genetec", "Genetec" },
             { "softwaredevintern", "Stagiaire en Développement de Logiciels" },
+            { "geneteccamera", "Développer une infrastructure pour deux modèles de caméras de sécurité en .NET C#, un basé sur Windows, et l'autre sur Linux" },
+            { "genetecport", "Adapter le portail web pour la gestion de ces caméras, programmé avec JavaScript, de React à Angular" },
+            { "genetecbilingual", "Opérer au sein d'une équipe et d'une companue hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
@@ -230,7 +244,7 @@ class Translations
             case 6:
                 if (ResumeSettings.CURRENTLANGUAGE == ENGLISH)
                 {
-                    returnValue = "JUNE";
+                    returnValue = "JUN";
                 }
                 else if (ResumeSettings.CURRENTLANGUAGE == FRENCH)
                 {
@@ -241,7 +255,7 @@ class Translations
             case 7:
                 if (ResumeSettings.CURRENTLANGUAGE == ENGLISH)
                 {
-                    returnValue = "JULY";
+                    returnValue = "JUL";
                 }
                 else if (ResumeSettings.CURRENTLANGUAGE == FRENCH)
                 {

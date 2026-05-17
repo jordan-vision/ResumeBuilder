@@ -56,28 +56,34 @@ class JobManager
         vretta.Include = true;
         vretta.ShowDetails = true;
         vrettaSoftware.Accomplishments.Add("vrettaStudents");
-        vrettaSoftware.Accomplishments.Add("vrettasql");
         vrettaSoftware.Accomplishments.Add("vrettagov");
+        vrettaSoftware.Accomplishments.Add("vrettasql");
 
         //Hogg
-        hogg.Include = true;
-        hogg.ShowDetails = true;
+        hogg.Include = false;
+        hogg.ShowDetails = false;
 
         // Concordia
         concordia.Include = true;
-        concordia.ShowDetails = true;
+        concordia.ShowDetails = false;
 
         // TransPerfect
-        transperfect.Include = true;
-        transperfect.ShowDetails = true;
+        transperfect.Include = false;
+        transperfect.ShowDetails = false;
 
         // Ubisoft
         ubisoft.Include = true;
         ubisoft.ShowDetails = true;
+        ubisoftIntern.Accomplishments.Add("ubisoftcicd");
+        ubisoftIntern.Accomplishments.Add("ubisoftagile");
+        ubisoftIntern.Accomplishments.Add("ubisoftblazor");
 
         // Genetec
         genetec.Include = true;
         genetec.ShowDetails = true;
+        genetecIntern.Accomplishments.Add("geneteccamera");
+        genetecIntern.Accomplishments.Add("genetecport");
+        genetecIntern.Accomplishments.Add("genetecbilingual");
         // ---- EDIT END HERE ----
 
         jobsSetup = true;
@@ -120,14 +126,16 @@ class JobManager
         // CGD
         cgd.Include = true;
         cgd.ShowDetails = true;
+        cgdHead.Accomplishments.Add("cgdwebsite");
+        cgdStaff.Accomplishments.Add("cgddiscord");
 
         // Music Club
-        musicClub.Include = true;
-        musicClub.ShowDetails = true;
+        musicClub.Include = false;
+        musicClub.ShowDetails = false;
 
         // Game Lab
-        gameLab.Include = true;
-        gameLab.ShowDetails = true;
+        gameLab.Include = false;
+        gameLab.ShowDetails = false;
 
         // Somm
         somm.Include = true;
