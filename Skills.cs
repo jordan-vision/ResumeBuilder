@@ -4,21 +4,29 @@ internal class Skills
 {
     // Hard skills
     const string FULLSTACK = "fullstack";
+    const string DEVOPS = "devops";
+    const string DATABASES = "databases";
+    const string OOP = "oop";
+    const string MULTITHREAD = "multithread";
 
     // Languages
     const string CSHARP = "C#";
-    const string CPLUSPLUS = "C/C++";
+    const string CPP = "C/C++";
     const string JAVA = "Java";
     const string PYTHON = "Python";
-    const string JAVASCRIPT = "JavaScript";
+    const string JS = "JavaScript";
     const string HTML = "HTML";
     const string SQL = "SQL";
+    const string TS = "TypeScript";
 
     // Frameworks
     const string ANGULAR = "Angular";
     const string ASP = "ASP.NET";
     const string BLAZOR = "Blazor";
     const string OPENGL = "OpenGL";
+    const string DOTNET = ".NET";
+    const string REACT = "React";
+    const string NODE = "NodeJS";
 
     // IDEs
     const string VS = "Visual Studio";
@@ -38,52 +46,56 @@ internal class Skills
     // Other Software
     const string NOTION = "Notion";
     const string MSOFFICE = "Microsoft Office Suite";
+    const string GITLAB = "GitLab";
 
     // Soft skills
     const string PROBLEM = "problem";
+    const string TEAMWORK = "teamwork";
+    const string MENTOR = "mentorship";
 
 
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        FULLSTACK,
+        OOP,
+        MULTITHREAD,
     };
     public static readonly string[] RELEVANTLANGUAGES =
-{
+    {
         CSHARP,
-        CPLUSPLUS,
         JAVA,
-        PYTHON,
+        CPP,
+        JS,
+        TS,
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
-{
+    {
+        DOTNET,
         ANGULAR,
-        ASP,
-        BLAZOR,
+        NODE,
     };
     public static readonly string[] RELEVANTIDES =
-{
+    {
         VS,
-        ECLIPSE,
     };
     public static readonly string[] RELEVANTGAMEENGINES =
-{
-        UNITY,
-        UNREAL,
+    {
+        
     };
     public static readonly string[] RELEVANTOS =
-{
+    {
         LINUX,
+        WINDOWS,
         WSL,
     };
     public static readonly string[] RELEVANTSOFTWARE =
-{
-        NOTION,
-        MSOFFICE,
+    {
+        GITLAB
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
-{
-
+    {
+        TEAMWORK,
+        PROBLEM
     };
     // ---- EDIT END HERE ----
 }

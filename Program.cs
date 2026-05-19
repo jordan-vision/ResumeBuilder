@@ -69,6 +69,6 @@ public class Program
                     });
             });
         })
-        .GeneratePdf("Draft.pdf");
+        .GeneratePdf(Path.Combine(ResumeSettings.PATH, "Resume Jordan Bossou " + ResumeSettings.FILENAMEEXTRA + ".pdf"));
     }
 }

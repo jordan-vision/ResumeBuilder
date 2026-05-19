@@ -81,9 +81,9 @@ class JobManager
         // Genetec
         genetec.Include = true;
         genetec.ShowDetails = true;
-        genetecIntern.Accomplishments.Add("geneteccamera");
+        genetecIntern.Accomplishments.Add("geneteccameraoop");
         genetecIntern.Accomplishments.Add("genetecport");
-        genetecIntern.Accomplishments.Add("genetecbilingual");
+        genetecIntern.Accomplishments.Add("genetecmultithread");
         // ---- EDIT END HERE ----
 
         jobsSetup = true;
@@ -127,7 +127,6 @@ class JobManager
         cgd.Include = true;
         cgd.ShowDetails = true;
         cgdHead.Accomplishments.Add("cgdwebsite");
-        cgdStaff.Accomplishments.Add("cgddiscord");
 
         // Music Club
         musicClub.Include = false;
@@ -138,8 +137,8 @@ class JobManager
         gameLab.ShowDetails = false;
 
         // Somm
-        somm.Include = true;
-        somm.ShowDetails = true;
+        somm.Include = false;
+        somm.ShowDetails = false;
         // ---- EDIT END HERE ----
 
         volunteeringSetup = true;

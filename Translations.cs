@@ -31,7 +31,13 @@ class Translations
 
             // Skills
             { "fullstack", "Fullstack Development" },
+            { "devops", "DevOps" },
+            { "databases", "Databases" },
+            { "oop", "Object Oriented Programming" },
+            { "multithread", "Multithread Programming" },
             { "problem", "Problem Solving" },
+            { "teamwork", "Teamwork & Communication" },
+            { "mentorship", "Mentorship" },
 
             // Languages
             { "english", "English: Fluent" },
@@ -68,15 +74,17 @@ class Translations
             { "genetec", "Genetec" },
             { "softwaredevintern", "Software Developer Intern" },
             { "geneteccamera", "Developed the infrastructure for two security camera models in .NET C#, one built upon Windows and the other upon Linux" },
+            { "geneteccameraoop", "Developed an object-oriented infrastructure for two security camera models in .NET C#, one built upon Windows and the other upon Linux" },
             { "genetecport", "Ported the web portal for managing these cameras, coded in JavaScript, from React to Angular" },
             { "genetecbilingual", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
+            { "genetecmultithread", "Programming asynchronous solutions to complex multithreading problems" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
             { "techhead", "Head of Technology" },
             { "cgdwebsite", "Managed and contributed to the development of the official Concordia Game Development website, using React and TypeScript" },
             { "techstaff", "Tech Staff" },
-            { "cgddiscord", "Developped a Discord bot for staff productivity in Python" },
+            { "cgddiscord", "Developed a Discord bot for staff productivity in Python" },
 
             // Music club
             { "musicclub", "Concordia Music Club" },
@@ -113,7 +121,13 @@ class Translations
 
             // Skills
             { "fullstack", "Développement Fullstack" },
+            { "devops", "DevOps" },
+            { "databases", "Bases de Données" },
+            { "oop", "Programmation Orientée Objet" },
+            { "multithread", "Programmation Multithread" },
             { "problem", "Résolution de problèmes" },
+            { "teamwork", "Communication et Travail d'Équipe" },
+            { "mentorship", "Mentorat" },
 
             // Languages
             { "english", "Anglais: Courant" },
@@ -149,14 +163,18 @@ class Translations
             // Genetec
             { "genetec", "Genetec" },
             { "softwaredevintern", "Stagiaire en Développement de Logiciels" },
-            { "geneteccamera", "Développer une infrastructure pour deux modèles de caméras de sécurité en .NET C#, un basé sur Windows, et l'autre sur Linux" },
+            { "geneteccamera", "Développer une infrastructure pour deux modèles de caméras de sécurité en .NET C#, l'un basé sur Windows, et l'autre sur Linux" },
+            { "geneteccameraoop", "Développer une infrastructure orientée objet pour deux modèles de caméras de sécurité en .NET C#, l'un basé sur Windows, et l'autre sur Linux" },
             { "genetecport", "Adapter le portail web pour la gestion de ces caméras, programmé avec JavaScript, de React à Angular" },
             { "genetecbilingual", "Opérer au sein d'une équipe et d'une companue hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
+            { "genetecmultithread", "Programmer des solutions asynchrones à des problèmes de multithreading complexes" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
             { "techhead", "Directeur Technique" },
+            { "cgdwebsite", "Gérer et contribuer au the développement du site officiel de Concordia Game Development, avec React and TypeScript" },
             { "techstaff", "Personnel Technique" },
+            { "cgddiscord", "Développer un bot Discord pour la productivité du personnel en Python" },
 
             // Music club
             { "musicclub", "Club de Musique de Concordia" },

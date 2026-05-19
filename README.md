@@ -1,10 +1,9 @@
-Change these for every new resume:
 
-Program.cs
-- filePath
+Change these for every new resume:
 
 ResumeSettings.cs:
 - CURRENTLANGUAGE
+- FILENAMEEXTRA
 - JOBPOSITION
 - SORTINGMETHOD
 
