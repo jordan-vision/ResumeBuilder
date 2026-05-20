@@ -1,7 +1,9 @@
-﻿using QuestPDF.Fluent;
+﻿using PdfSharp.Pdf.IO;
+using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using ResumeBuilder;
+using System.Text;
 
 public class Program
 {   
@@ -9,6 +11,7 @@ public class Program
     {
         Translations.SetupTranslations();
         var includePositon = ResumeSettings.TryGetPosition(out var jobPosition);
+        var completeFileName = Path.Combine(ResumeSettings.PATH, "Resume Jordan Bossou " + ResumeSettings.FILENAMEEXTRA + ".pdf");
 
         QuestPDF.Settings.License = LicenseType.Evaluation;
 
@@ -69,6 +72,16 @@ public class Program
                     });
             });
         })
-        .GeneratePdf(Path.Combine(ResumeSettings.PATH, "Resume Jordan Bossou " + ResumeSettings.FILENAMEEXTRA + ".pdf"));
+        .GeneratePdf(completeFileName);
+
+        // Limit to 1 page
+        using (var pdfDocument = PdfReader.Open(completeFileName, PdfDocumentOpenMode.Modify))
+        {
+            while (pdfDocument.PageCount > 1)
+            {
+                pdfDocument.Pages.RemoveAt(1);
+            }
+            pdfDocument.Save(completeFileName);
+        }
     }
 }

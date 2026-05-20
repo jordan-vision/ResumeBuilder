@@ -21,7 +21,7 @@ internal class ResumeSettings
 
     // ---- EDIT START HERE ----
     public const string CURRENTLANGUAGE = Translations.ENGLISH;
-    public const string FILENAMEEXTRA = "turtle rock platform eng";
+    public const string FILENAMEEXTRA = "turtle rock tools programmer";
     const JobPositions JOBPOSITION = JobPositions.Dev;
     public const SortingMethod SORTINGMETHOD = SortingMethod.Start;
     // ---- EDIT END HERE ----

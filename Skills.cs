@@ -11,6 +11,9 @@ internal class Skills
     const string BACKEND = "backend";
     const string NETWORK = "network";
     const string RELATIONAL = "relational";
+    const string CALCULUS = "calculus";
+    const string LINEAR = "linear";
+    const string GAME = "gamedev";
 
     // Languages
     const string CSHARP = "C#";
@@ -30,6 +33,7 @@ internal class Skills
     const string DOTNET = ".NET";
     const string REACT = "React";
     const string NODE = "NodeJS";
+    const string WPF = "WPF";
 
     // IDEs
     const string VS = "Visual Studio";
@@ -63,47 +67,48 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
+        OOP,
+        GAME,
+        CALCULUS,
+        LINEAR,
         BACKEND,
-        NETWORK,
-        RELATIONAL
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        JAVA,
         CSHARP,
-        TS,
+        CPP,
+        SQL,
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
+        ASP,
         DOTNET,
+        BLAZOR,
+        WPF,
         NODE,
     };
     public static readonly string[] RELEVANTIDES =
     {
         VS,
         VSCODE,
-        ECLIPSE,
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        UNITY,
         UNREAL,
+        UNITY,
     };
     public static readonly string[] RELEVANTOS =
     {
-        LINUX,
-        WINDOWS,
-        WSL,
+
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        AWS,
-        AZURE
+
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
+        PROBLEM,
         TEAMWORK,
-        PROBLEM
     };
     // ---- EDIT END HERE ----
 }

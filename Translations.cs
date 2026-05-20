@@ -38,6 +38,9 @@ class Translations
             { "backend", "Back-end Development" },
             { "network", "Network Programming" },
             { "relational", "Relational Databases" },
+            { "calculus", "Calculus" },
+            { "linear", "Linear Algebra" },
+            { "gamedev", "Game Development" },
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
             { "mentorship", "Mentorship" },
@@ -72,8 +75,10 @@ class Translations
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Tools Programmer Intern" },
             { "ubisoftcicd", "Developed an ASP.NET web app in C# that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses" },
+            { "ubisoftwpf", "Developed a WPF web app in Blazor and C# that distributes CI/CD pipelines across the local network, reducing cloud server expenses" },
             { "ubisoftagile", "Worked within an Agile team, actively contributed in discussing improvements in performance and usability, and used GitLab for version control" },
             { "ubisoftblazor", "Constructed the app's UI from the ground up in HTML and CSS, through the Blazor framework" },
+            { "ubisoftshell", "Wrote shell scripts to manage the installation and uninstallation of the app, its docker environment, and its folder hierarchy" },
 
             // Genetec
             { "genetec", "Genetec" },
@@ -104,6 +109,11 @@ class Translations
             // Somm
             { "somm", "School of Music Montreal" },
             { "pianoteacher", "Piano Teacher" },
+
+            // VRConcert
+            { "vrconcert", "VRConcert" },
+            { "designerprogrammer", "Designer & Programmer" },
+            { "vrconcertdescription", "Built a VR scene in the Unreal Engine that allowed musical improvisation through dynamic audio, using Unreal blueprints" },
         });
 
         translations.Add(FRENCH, new()
@@ -135,6 +145,9 @@ class Translations
             { "backend", "Développement Back-end" },
             { "network", "Programmation Réseau" },
             { "relational", "Bases de Données Relationnelles" },
+            { "calculus", "Calculus" },
+            { "linear", "Algèbre Linéaire" },
+            { "gamedev", "Développement de Jeux" },
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Travail d'Équipe" },
             { "mentorship", "Mentorat" },
@@ -169,8 +182,10 @@ class Translations
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Stagiare en Programmation d'Outils" },
             { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
+            { "ubisoftwpf", "Développer une application web WPF avec Blazor et C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
             { "ubisoftagile", "Travailler dans une équipe Agille, discuter des potentielles améliorations de performance et d'ergonomie, et utiliser GitLab pour le contrôle de versions" },
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
+            { "ubisoftshell", "Programmer des scripts shell pour gérer l'installation et la désinstallation de l'application, l'environnement docker, et la hiérarchie des dossiers" },
 
             // Genetec
             { "genetec", "Genetec" },
@@ -201,7 +216,26 @@ class Translations
             // Somm
             { "somm", "School of Music Montreal" },
             { "pianoteacher", "Professeur de Piano" },
+
+            // VRConcert
+            { "vrconcert", "VRConcert" },
+            { "designerprogrammer", "Designer et Programmeur" },
+            { "vrconcertdescription", "Construire une scène en réalité virtuelle dans Unreal Engine qui permet l'improvisation musicale à travers l'audio dynamique, avec les blueprints Unreal" },
         });
+        
+        var englishKeys = translations[ENGLISH].Keys.ToList();
+        var frenchKeys = translations[FRENCH].Keys.ToList();
+        var missingFrenchKeys = englishKeys.Except(frenchKeys);
+        var missingEnglishKeys = frenchKeys.Except(englishKeys);
+
+        if (missingFrenchKeys.Count() != 0)
+        {
+            throw new Exception($"French translations missing following keys: {String.Join(", ", missingFrenchKeys)}");
+        }
+        if (missingEnglishKeys.Count() != 0)
+        {
+            throw new Exception($"English translations missing following keys: {String.Join(", ", missingEnglishKeys)}");
+        }
     }
 
     public static string Get(string slug)
@@ -214,10 +248,16 @@ class Translations
         var (startMonth, startYear) = start;
         var (endMonth, endYear) = end;
 
-        var startMonthString = MonthNumberToName(startMonth);
-        var endMonthString = MonthNumberToName(endMonth);
+        var returnValue = MonthNumberToName(startMonth) + " 20" + startYear;
 
-        return startMonthString + " 20" + startYear + " - " + endMonthString + " 20" + endYear;
+        if (start == end)
+        {
+            return returnValue;
+        }
+
+        returnValue += " - " + MonthNumberToName(endMonth) + " 20" + endYear;
+
+        return returnValue;
     }
 
     static string MonthNumberToName(int monthNumber)
