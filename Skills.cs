@@ -8,6 +8,9 @@ internal class Skills
     const string DATABASES = "databases";
     const string OOP = "oop";
     const string MULTITHREAD = "multithread";
+    const string BACKEND = "backend";
+    const string NETWORK = "network";
+    const string RELATIONAL = "relational";
 
     // Languages
     const string CSHARP = "C#";
@@ -31,7 +34,7 @@ internal class Skills
     // IDEs
     const string VS = "Visual Studio";
     const string VSCODE = "Visual Studio Code";
-    const string ECLIPSE = "ECLIPSE";
+    const string ECLIPSE = "Eclipse";
     const string IDLE = "IDLE";
 
     // Game Engines
@@ -46,7 +49,10 @@ internal class Skills
     // Other Software
     const string NOTION = "Notion";
     const string MSOFFICE = "Microsoft Office Suite";
+    const string GIT = "Git";
     const string GITLAB = "GitLab";
+    const string AWS = "AWS";
+    const string AZURE = "Azure";
 
     // Soft skills
     const string PROBLEM = "problem";
@@ -57,30 +63,31 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        OOP,
-        MULTITHREAD,
+        BACKEND,
+        NETWORK,
+        RELATIONAL
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        CSHARP,
         JAVA,
-        CPP,
-        JS,
+        CSHARP,
         TS,
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
         DOTNET,
-        ANGULAR,
         NODE,
     };
     public static readonly string[] RELEVANTIDES =
     {
         VS,
+        VSCODE,
+        ECLIPSE,
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        
+        UNITY,
+        UNREAL,
     };
     public static readonly string[] RELEVANTOS =
     {
@@ -90,7 +97,8 @@ internal class Skills
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        GITLAB
+        AWS,
+        AZURE
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {

@@ -20,8 +20,8 @@ internal class ResumeSettings
     public const string PATH = "C:\\Users\\byjor\\Desktop\\Work\\Work Search 3\\Resumes";
 
     // ---- EDIT START HERE ----
-    public const string CURRENTLANGUAGE = Translations.FRENCH;
-    public const string FILENAMEEXTRA = "genetec .net developer r&d 304";
+    public const string CURRENTLANGUAGE = Translations.ENGLISH;
+    public const string FILENAMEEXTRA = "turtle rock platform eng";
     const JobPositions JOBPOSITION = JobPositions.Dev;
     public const SortingMethod SORTINGMETHOD = SortingMethod.Start;
     // ---- EDIT END HERE ----

@@ -35,6 +35,9 @@ class Translations
             { "databases", "Databases" },
             { "oop", "Object Oriented Programming" },
             { "multithread", "Multithread Programming" },
+            { "backend", "Back-end Development" },
+            { "network", "Network Programming" },
+            { "relational", "Relational Databases" },
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
             { "mentorship", "Mentorship" },
@@ -49,7 +52,9 @@ class Translations
             { "softwaredev", "Software Developer" },
             { "vrettaStudents", "Developed an online platform with Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
             { "vrettasql", "Scripted SQL queries and API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of data between the database, the back-end, and the front-end" },
+            { "vrettasqlbackend", "Scripted SQL queries and back-end API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of data between the database, the back-end, and the front-end" },
             { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, ensuring customer satisfaction" },
+            { "vrettadoc", "Documented quality assurance plans and user flows for each change in the code, enabling users and quality assurance staff to keep track of them" },
 
             // Hogg
             { "hogg", "Hogg Hardware" },
@@ -67,7 +72,7 @@ class Translations
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Tools Programmer Intern" },
             { "ubisoftcicd", "Developed an ASP.NET web app in C# that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses" },
-            { "ubisoftagile", "Worked within an Agile team, actively contributed in discussing improvements, and used GitLab for version control" },
+            { "ubisoftagile", "Worked within an Agile team, actively contributed in discussing improvements in performance and usability, and used GitLab for version control" },
             { "ubisoftblazor", "Constructed the app's UI from the ground up in HTML and CSS, through the Blazor framework" },
 
             // Genetec
@@ -78,6 +83,7 @@ class Translations
             { "genetecport", "Ported the web portal for managing these cameras, coded in JavaScript, from React to Angular" },
             { "genetecbilingual", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
             { "genetecmultithread", "Programming asynchronous solutions to complex multithreading problems" },
+            { "genetecbackend", "Used .NET's built-in HTTP network features to program fast and foolproof back-end methods that reliably support multithreading" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
@@ -93,6 +99,7 @@ class Translations
             // Game Lab
             { "gamelab", "Ubisoft Game Lab" },
             { "uiprogrammer", "UI Programmer" },
+            { "gamelablan", "Programmed the user interface for a LAN multiplayer computer game in the Unity Engine" },
 
             // Somm
             { "somm", "School of Music Montreal" },
@@ -125,6 +132,9 @@ class Translations
             { "databases", "Bases de Données" },
             { "oop", "Programmation Orientée Objet" },
             { "multithread", "Programmation Multithread" },
+            { "backend", "Développement Back-end" },
+            { "network", "Programmation Réseau" },
+            { "relational", "Bases de Données Relationnelles" },
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Travail d'Équipe" },
             { "mentorship", "Mentorat" },
@@ -139,7 +149,9 @@ class Translations
             { "softwaredev", "Développeur de Logiciels" },
             { "vrettaStudents", "Développer une plateforme de conception d'évaluations avec Angular, pour plus de 800,000 élèves dans 4 provinces" },
             { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données entre la base de données, le back-end, et le front-end" },
+            { "vrettasqlbackend", "Scripter des requêtes SQL et des endpoints API dans le back-end en TypeScript pour optimiser le transfert de centaines de giga-octets de données entre la base de données, le back-end, et le front-end" },
             { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, assurant ainsi la satisfaction des clients" },
+            { "vrettadoc", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
 
             // Hogg
             { "hogg", "Quincaillerie Hogg" },
@@ -157,7 +169,7 @@ class Translations
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Stagiare en Programmation d'Outils" },
             { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
-            { "ubisoftagile", "Travailler dans une équipe Agille, discuter des potentielles améliorations, et utiliser GitLab pour le contrôle de versions" },
+            { "ubisoftagile", "Travailler dans une équipe Agille, discuter des potentielles améliorations de performance et d'ergonomie, et utiliser GitLab pour le contrôle de versions" },
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
 
             // Genetec
@@ -168,6 +180,7 @@ class Translations
             { "genetecport", "Adapter le portail web pour la gestion de ces caméras, programmé avec JavaScript, de React à Angular" },
             { "genetecbilingual", "Opérer au sein d'une équipe et d'une companue hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
             { "genetecmultithread", "Programmer des solutions asynchrones à des problèmes de multithreading complexes" },
+            { "genetecbackend", "Utiliser les fonctionnalités réseau HTTP de .NET pour programmer des méthodes back-end rapides, infaillibles, et qui supportent le multithreading" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
@@ -183,6 +196,7 @@ class Translations
             // Game Lab
             { "gamelab", "Concours Universitaire Ubisoft" },
             { "uiprogrammer", "Programmeur d'Interface Utilisateur" },
+            { "gamelablan", "Programmer l'interface utilisateur pour un jeu multijoueur LAN dans Unity Engine" },
 
             // Somm
             { "somm", "School of Music Montreal" },

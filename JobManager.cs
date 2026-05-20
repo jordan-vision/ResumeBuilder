@@ -56,8 +56,8 @@ class JobManager
         vretta.Include = true;
         vretta.ShowDetails = true;
         vrettaSoftware.Accomplishments.Add("vrettaStudents");
-        vrettaSoftware.Accomplishments.Add("vrettagov");
-        vrettaSoftware.Accomplishments.Add("vrettasql");
+        vrettaSoftware.Accomplishments.Add("vrettasqlbackend");
+        vrettaSoftware.Accomplishments.Add("vrettadoc");
 
         //Hogg
         hogg.Include = false;
@@ -81,9 +81,9 @@ class JobManager
         // Genetec
         genetec.Include = true;
         genetec.ShowDetails = true;
-        genetecIntern.Accomplishments.Add("geneteccameraoop");
+        genetecIntern.Accomplishments.Add("geneteccamera");
+        genetecIntern.Accomplishments.Add("genetecbackend");
         genetecIntern.Accomplishments.Add("genetecport");
-        genetecIntern.Accomplishments.Add("genetecmultithread");
         // ---- EDIT END HERE ----
 
         jobsSetup = true;
@@ -125,7 +125,7 @@ class JobManager
         // ---- EDIT START HERE ----
         // CGD
         cgd.Include = true;
-        cgd.ShowDetails = true;
+        cgd.ShowDetails = false;
         cgdHead.Accomplishments.Add("cgdwebsite");
 
         // Music Club
@@ -133,8 +133,9 @@ class JobManager
         musicClub.ShowDetails = false;
 
         // Game Lab
-        gameLab.Include = false;
-        gameLab.ShowDetails = false;
+        gameLab.Include = true;
+        gameLab.ShowDetails = true;
+        gameLabProgrammer.Accomplishments.Add("gamelablan");
 
         // Somm
         somm.Include = false;
