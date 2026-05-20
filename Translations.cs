@@ -183,9 +183,9 @@ class Translations
             { "toolsprogrammerintern", "Stagiare en Programmation d'Outils" },
             { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
             { "ubisoftwpf", "Développer une application web WPF avec Blazor et C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
-            { "ubisoftagile", "Travailler dans une équipe Agille, discuter des potentielles améliorations de performance et d'ergonomie, et utiliser GitLab pour le contrôle de versions" },
+            { "ubisoftagile", "Travailler dans une équipe Agile compétente avec GitLab, et discuter des potentielles améliorations de performance et d'ergonomie" },
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
-            { "ubisoftshell", "Programmer des scripts shell pour gérer l'installation et la désinstallation de l'application, l'environnement docker, et la hiérarchie des dossiers" },
+            { "ubisoftshell", "Programmer des scripts shell pour gérer l'installation, la désinstallation, l'environnement docker, et la hiérarchie des dossiers" },
 
             // Genetec
             { "genetec", "Genetec" },
@@ -195,7 +195,7 @@ class Translations
             { "genetecport", "Adapter le portail web pour la gestion de ces caméras, programmé avec JavaScript, de React à Angular" },
             { "genetecbilingual", "Opérer au sein d'une équipe et d'une companue hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
             { "genetecmultithread", "Programmer des solutions asynchrones à des problèmes de multithreading complexes" },
-            { "genetecbackend", "Utiliser les fonctionnalités réseau HTTP de .NET pour programmer des méthodes back-end rapides, infaillibles, et qui supportent le multithreading" },
+            { "genetecbackend", "Utiliser les fonctionnalités réseau HTTP de .NET pour programmer des méthodes back-end en multithreading" },
 
             // CGD
             { "cgd", "Concordia Game Development" },

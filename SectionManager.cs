@@ -212,7 +212,7 @@ class SectionManager
                 columnDescriptor.Item().Row(row =>
                 {
                     // Position and start/end
-                    row.RelativeItem().Text(Translations.Get(position.Title));
+                    row.AutoItem().Text(Translations.Get(position.Title));
                     row.RelativeItem().Text(Translations.Dates(position.StartMonth, position.EndMonth)).AlignRight();
 
                     // Move on to the next job if I don't wish to include achievements

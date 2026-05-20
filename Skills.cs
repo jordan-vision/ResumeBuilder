@@ -116,7 +116,6 @@ internal class Skills
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
         PROBLEM,
-        TEAMWORK,
     };
     // ---- EDIT END HERE ----
 }
