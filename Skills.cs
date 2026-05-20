@@ -67,39 +67,47 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
+        FULLSTACK,
         OOP,
+        NETWORK,
+        MULTITHREAD,
         GAME,
-        CALCULUS,
-        LINEAR,
-        BACKEND,
+        DEVOPS,
+        DATABASES,
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
         CSHARP,
         CPP,
+        JS,
+        TS,
+        JAVA,
+        PYTHON,
         SQL,
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
+        NODE,
+        ANGULAR,
+        REACT,
         ASP,
         DOTNET,
         BLAZOR,
-        WPF,
-        NODE,
     };
     public static readonly string[] RELEVANTIDES =
     {
         VS,
-        VSCODE,
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        UNREAL,
         UNITY,
+        UNREAL,
     };
     public static readonly string[] RELEVANTOS =
     {
-
+        LINUX,
+        WINDOWS,
+        WSL,
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
