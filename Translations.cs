@@ -66,6 +66,7 @@ class Translations
             { "vrettasqlbackend", "Scripted SQL queries and back-end API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of data between the database, the back-end, and the front-end" },
             { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, ensuring customer satisfaction" },
             { "vrettadoc", "Documented quality assurance plans and user flows for each change in the code, enabling users and quality assurance staff to keep track of them" },
+            { "vrettak8s", "Documented quality assurance plans and user flows for each change in the code, to be tested in a Kubernetes environment by the quality assurance team" },
 
             // Hogg
             { "hogg", "Hogg Hardware" },
@@ -98,6 +99,7 @@ class Translations
             { "genetecbilingual", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
             { "genetecmultithread", "Programming asynchronous solutions to complex multithreading problems" },
             { "genetecbackend", "Used .NET's built-in HTTP network features to program fast and foolproof back-end methods that reliably support multithreading" },
+            { "genetectest", "Wrote and modified automated unit tests with xUnit for each feature, ensuring code quality" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
@@ -182,6 +184,7 @@ class Translations
             { "vrettasqlbackend", "Scripter des requêtes SQL et des endpoints API dans le back-end en TypeScript pour optimiser le transfert de centaines de giga-octets de données entre la base de données, le back-end, et le front-end" },
             { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, assurant ainsi la satisfaction des clients" },
             { "vrettadoc", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
+            { "vrettak8s", "DDocumenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que le personnel d'assurance qualité testent ces modifications dans un environnement Kubernetes" },
 
             // Hogg
             { "hogg", "Quincaillerie Hogg" },
@@ -214,6 +217,7 @@ class Translations
             { "genetecbilingual", "Opérer au sein d'une équipe et d'une companie hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
             { "genetecmultithread", "Programmer des solutions asynchrones à des problèmes de multithreading complexes" },
             { "genetecbackend", "Utiliser les fonctionnalités réseau HTTP de .NET pour programmer des méthodes back-end en multithreading" },
+            { "genetectest", "Écrire et modifier des tests unitaires automatisés avec xUnit pour chaque fonctionnalité, assurant la qualité du code" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
