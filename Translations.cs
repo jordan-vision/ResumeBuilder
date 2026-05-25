@@ -44,9 +44,14 @@ class Translations
             { "cicd", "CI/CD" },
             { "web", "Web Development" },
             { "mvc", "Model-View-Controller (MVC)" },
+            { "tools", "Tools Programming" },
+            { "frontend", "Front-End Programming" },
+            { "ui", "UI Programming" },
+
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
             { "mentorship", "Mentorship" },
+            { "adaptability", "Adaptabilité" },
 
             // Languages
             { "english", "English: Fluent" },
@@ -79,6 +84,7 @@ class Translations
             { "toolsprogrammerintern", "Tools Programmer Intern" },
             { "ubisoftcicd", "Developed an ASP.NET web app in C# that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses" },
             { "ubisoftwpf", "Developed a WPF web app in Blazor and C# that distributes CI/CD pipelines across the local network, reducing cloud server expenses" },
+            { "ubisoftaaa", "Developed a web app that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses for developing AAA games" },
             { "ubisoftagile", "Worked within an agile team, actively contributed in discussing improvements in performance and usability, and used GitLab for version control" },
             { "ubisoftblazor", "Constructed the app's UI from the ground up in HTML and CSS, through the Blazor framework" },
             { "ubisoftshell", "Wrote shell scripts to manage the installation and uninstallation of the app, its docker environment, and its folder hierarchy" },
@@ -154,9 +160,14 @@ class Translations
             { "cicd", "CI/CD" },
             { "web", "Développement Web" },
             { "mvc", "Model-View-Controller (MVC)" },
+            { "tools", "Programmation d'Outils" },
+            { "frontend", "Programmation Front-End" },
+            { "ui", "Programmation d'Interface Utilisateur" },
+
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Travail d'Équipe" },
             { "mentorship", "Mentorat" },
+            { "adaptability", "Adaptabilité" },
 
             // Languages
             { "english", "Anglais: Courant" },
@@ -189,6 +200,7 @@ class Translations
             { "toolsprogrammerintern", "Stagiare en Programmation d'Outils" },
             { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
             { "ubisoftwpf", "Développer une application web WPF avec Blazor et C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
+            { "ubisoftaaa", "Développer une application web pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud pour le développement de jeux AAA" },
             { "ubisoftagile", "Travailler dans une équipe agile compétente avec GitLab, et discuter des potentielles améliorations de performance et d'ergonomie" },
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
             { "ubisoftshell", "Programmer des scripts shell pour gérer l'installation, la désinstallation, l'environnement docker, et la hiérarchie des dossiers" },
@@ -226,7 +238,7 @@ class Translations
             // VRConcert
             { "vrconcert", "VRConcert" },
             { "designerprogrammer", "Designer et Programmeur" },
-            { "vrconcertdescription", "Construire une scène en réalité virtuelle dans Unreal Engine qui permet l'improvisation musicale à travers l'audio dynamique, avec les blueprints Unreal" },
+            { "vrconcertdescription", "Construire une scène en réalité virtuelle dans Unreal Engine, avec les blueprints, qui permet aux utilisateurs d'improviser avec des instruments musicaux" },
         });
         
         var englishKeys = translations[ENGLISH].Keys.ToList();

@@ -17,6 +17,9 @@ internal class Skills
     const string CICD = "cicd";
     const string WEB = "web";
     const string MVC = "mvc";
+    const string TOOLS = "tools";
+    const string FRONTEND = "frontend";
+    const string UI = "ui";
 
     // Languages
     const string CSHARP = "C#";
@@ -58,6 +61,7 @@ internal class Skills
     const string MSOFFICE = "Microsoft Office Suite";
     const string GIT = "Git";
     const string GITLAB = "GitLab";
+    const string GITHUB = "GitHub";
     const string AWS = "AWS";
     const string AZURE = "Azure";
     const string BLENDER = "Blender";
@@ -66,16 +70,16 @@ internal class Skills
     const string PROBLEM = "problem";
     const string TEAMWORK = "teamwork";
     const string MENTOR = "mentorship";
+    const string ADAPT = "adaptability";
 
 
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        OOP,
-        GAMEDEV,
-        DEVOPS,
-        LINEAR,
-        WEB,
+        TOOLS,
+        CICD,
+        UI,
+        FRONTEND,
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
@@ -85,17 +89,16 @@ internal class Skills
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
         OPENGL,
-        ASP,
-        WPF
     };
     public static readonly string[] RELEVANTIDES =
     {
         VS,
+        VSCODE,
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
+        UNREAL,
         UNITY,
-        UNREAL
     };
     public static readonly string[] RELEVANTOS =
     {
@@ -104,12 +107,14 @@ internal class Skills
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        BLENDER,
         GIT,
+        GITLAB,
+        GITHUB,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
         TEAMWORK,
+        ADAPT,
     };
     // ---- EDIT END HERE ----
 }

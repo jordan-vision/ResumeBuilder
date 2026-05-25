@@ -21,7 +21,7 @@ internal class ResumeSettings
 
     // ---- EDIT START HERE ----
     public const string CURRENTLANGUAGE = Translations.FRENCH;
-    public const string FILENAMEEXTRA = "autodesk software graphics";
+    public const string FILENAMEEXTRA = "2k tools programmer";
     const JobPositions JOBPOSITION = JobPositions.Dev;
     public const SortingMethod SORTINGMETHOD = SortingMethod.Start;
     // ---- EDIT END HERE ----
