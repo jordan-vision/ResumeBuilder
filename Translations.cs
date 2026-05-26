@@ -124,7 +124,7 @@ class Translations
             // VRConcert
             { "vrconcert", "VRConcert" },
             { "designerprogrammer", "Designer & Programmer" },
-            { "vrconcertdescription", "Built a VR scene in the Unreal Engine that allowed musical improvisation through dynamic audio, using Unreal blueprints" },
+            { "vrconcertdescription", "Built a VR scene in the Unreal Engine using blueprints, that allowed users to improvise with musical instruments" },
         });
 
         translations.Add(FRENCH, new()

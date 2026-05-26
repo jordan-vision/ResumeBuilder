@@ -57,7 +57,7 @@ class JobManager
         vretta.ShowDetails = true;
         vrettaSoftware.Accomplishments.Add("vrettaStudents");
         vrettaSoftware.Accomplishments.Add("vrettasqlbackend");
-        vrettaSoftware.Accomplishments.Add("vrettak8s");
+        vrettaSoftware.Accomplishments.Add("vrettadoc");
         
         //Hogg
         hogg.Include = false;
@@ -74,7 +74,7 @@ class JobManager
         // Ubisoft
         ubisoft.Include = true;
         ubisoft.ShowDetails = true;
-        ubisoftIntern.Accomplishments.Add("ubisoftwpf");
+        ubisoftIntern.Accomplishments.Add("ubisoftcicd");
         ubisoftIntern.Accomplishments.Add("ubisoftshell");
         ubisoftIntern.Accomplishments.Add("ubisoftagile");
 
@@ -82,8 +82,8 @@ class JobManager
         genetec.Include = true;
         genetec.ShowDetails = true;
         genetecIntern.Accomplishments.Add("geneteccamera");
-        genetecIntern.Accomplishments.Add("genetectest");
-        genetecIntern.Accomplishments.Add("genetecport");
+        genetecIntern.Accomplishments.Add("genetecbackend");
+        genetecIntern.Accomplishments.Add("genetecbilingual");
         // ---- EDIT END HERE ----
 
         jobsSetup = true;
@@ -128,18 +128,18 @@ class JobManager
         vrconcert.Positions.Add(vrconcertprogrammer);
         Volunteering.Add(vrconcert);
 
-        // ---- EDIT START HERE ----
+        // ---- EDIT START HERE----
         // CGD
         cgd.Include = true;
-        cgd.ShowDetails = true;
+        cgd.ShowDetails = false;
         cgdHead.Accomplishments.Add("cgdwebsite");
 
         // Music Club
-        musicClub.Include = false;
+        musicClub.Include = true;
         musicClub.ShowDetails = false;
 
         // Game Lab
-        gameLab.Include = true;
+        gameLab.Include = false;
         gameLab.ShowDetails = false;
         gameLabProgrammer.Accomplishments.Add("gamelablan");
 
@@ -148,8 +148,8 @@ class JobManager
         somm.ShowDetails = false;
 
         // VRConcert
-        vrconcert.Include = false;
-        vrconcert.ShowDetails = false;
+        vrconcert.Include = true;
+        vrconcert.ShowDetails = true;
         vrconcertprogrammer.Accomplishments.Add("vrconcertdescription");
         // ---- EDIT END HERE ----
 

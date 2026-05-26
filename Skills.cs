@@ -67,6 +67,7 @@ internal class Skills
     const string BLENDER = "Blender";
     const string DOCKER = "Docker";
     const string K8S = "Kubernetes";
+    const string REDIS = "Redis";
 
     // Soft skills
     const string PROBLEM = "problem";
@@ -78,47 +79,51 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        FULLSTACK,
-        TOOLS,
-        DATABASES,
-        GAMEDEV,
+        BACKEND,
+        OOP,
+        RELATIONAL,
         CICD,
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        CSHARP,
         JAVA,
-        TS,
+        CSHARP,
+        CPP,
         SQL,
+        PYTHON,
+        JS,
+        TS
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        REACT
+
     };
     public static readonly string[] RELEVANTIDES =
     {
-        VS,
-        VSCODE,
+
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        UNITY,
-        UNREAL,
+
     };
     public static readonly string[] RELEVANTOS =
     {
-
+        WINDOWS,
+        LINUX,
+        WSL,
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
+        AWS,
         GIT,
         DOCKER,
         K8S,
+        REDIS,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
         TEAMWORK,
-        ADAPT,
+        PROBLEM
     };
     // ---- EDIT END HERE ----
 }
