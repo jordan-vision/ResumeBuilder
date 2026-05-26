@@ -51,7 +51,8 @@ class Translations
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
             { "mentorship", "Mentorship" },
-            { "adaptability", "Adaptabilité" },
+            { "adaptability", "Adaptability" },
+            { "autonomy", "Autonomy" },
 
             // Languages
             { "english", "English: Fluent" },
@@ -100,6 +101,7 @@ class Translations
             { "genetecmultithread", "Programming asynchronous solutions to complex multithreading problems" },
             { "genetecbackend", "Used .NET's built-in HTTP network features to program fast and foolproof back-end methods that reliably support multithreading" },
             { "genetectest", "Wrote and modified automated unit tests with xUnit for each feature, ensuring code quality" },
+            { "genetecdevops", "Followed DevOps practices such as the development of automated unit tests to ensure the code's quality and continuous deployment" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
@@ -170,6 +172,7 @@ class Translations
             { "teamwork", "Communication et Travail d'Équipe" },
             { "mentorship", "Mentorat" },
             { "adaptability", "Adaptabilité" },
+            { "autonomy", "Autonomie" },
 
             // Languages
             { "english", "Anglais: Courant" },
@@ -218,6 +221,7 @@ class Translations
             { "genetecmultithread", "Programmer des solutions asynchrones à des problèmes de multithreading complexes" },
             { "genetecbackend", "Utiliser les fonctionnalités réseau HTTP de .NET pour programmer des méthodes back-end en multithreading" },
             { "genetectest", "Écrire et modifier des tests unitaires automatisés avec xUnit pour chaque fonctionnalité, assurant la qualité du code" },
+            { "genetecdevops", "Suivre des pratiques DevOps tel que le développement de tests unitaires automatisés pour assurer la qualité et la livraison continue du code" },
 
             // CGD
             { "cgd", "Concordia Game Development" },

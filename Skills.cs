@@ -74,25 +74,20 @@ internal class Skills
     const string TEAMWORK = "teamwork";
     const string MENTOR = "mentorship";
     const string ADAPT = "adaptability";
+    const string AUTO = "autonomy";
 
 
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        BACKEND,
-        OOP,
-        RELATIONAL,
+        DEVOPS,
         CICD,
+        TOOLS,
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        JAVA,
         CSHARP,
         CPP,
-        SQL,
-        PYTHON,
-        JS,
-        TS
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
@@ -108,22 +103,19 @@ internal class Skills
     };
     public static readonly string[] RELEVANTOS =
     {
-        WINDOWS,
-        LINUX,
-        WSL,
+        
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        AWS,
         GIT,
-        DOCKER,
-        K8S,
-        REDIS,
+        GITHUB,
+        AZURE,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
-        TEAMWORK,
-        PROBLEM
+        PROBLEM,
+        MENTOR,
+        AUTO
     };
     // ---- EDIT END HERE ----
 }
