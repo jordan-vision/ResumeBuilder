@@ -20,8 +20,8 @@ internal class ResumeSettings
     public const string PATH = "C:\\Users\\byjor\\Desktop\\Work\\Work Search 3\\New Resumes";
 
     // ---- EDIT START HERE ----
-    public const string CURRENTLANGUAGE = Translations.FRENCH;
-    public const string FILENAMEEXTRA = "deos software engineer";
+    public const string CURRENTLANGUAGE = Translations.ENGLISH;
+    public const string FILENAMEEXTRA = "deos fullstack";
     const JobPositions JOBPOSITION = JobPositions.Dev;
     public const SortingMethod SORTINGMETHOD = SortingMethod.Start;
     // ---- EDIT END HERE ----

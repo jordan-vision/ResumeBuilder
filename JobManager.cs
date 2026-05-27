@@ -57,7 +57,7 @@ class JobManager
         vretta.ShowDetails = true;
         vrettaSoftware.Accomplishments.Add("vrettanode");
         vrettaSoftware.Accomplishments.Add("vrettasqlbackend");
-        vrettaSoftware.Accomplishments.Add("vrettadoc");
+        vrettaSoftware.Accomplishments.Add("vrettak8s");
         
         //Hogg
         hogg.Include = false;
@@ -81,7 +81,7 @@ class JobManager
         // Genetec
         genetec.Include = true;
         genetec.ShowDetails = true;
-        genetecIntern.Accomplishments.Add("geneteccameravideo");
+        genetecIntern.Accomplishments.Add("geneteccamera");
         genetecIntern.Accomplishments.Add("genetectcp");
         genetecIntern.Accomplishments.Add("genetecdevops");
         // ---- EDIT END HERE ----

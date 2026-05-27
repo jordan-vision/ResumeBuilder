@@ -90,7 +90,7 @@ class Translations
             { "ubisoftaaa", "Developed a web app that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses for developing AAA games" },
             { "ubisoftagile", "Worked within an agile team, actively contributed in discussing improvements in performance and usability, and used GitLab for version control" },
             { "ubisoftblazor", "Constructed the app's UI from the ground up in HTML and CSS, through the Blazor framework" },
-            { "ubisoftshell", "Wrote shell scripts to manage the installation and uninstallation of the app, its docker environment, and its folder hierarchy" },
+            { "ubisoftshell", "Wrote shell scripts to manage the installation and uninstallation of the app, its Docker environment, and its folder hierarchy" },
 
             // Genetec
             { "genetec", "Genetec" },
@@ -102,7 +102,7 @@ class Translations
             { "genetecbilingual", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
             { "genetecmultithread", "Programming asynchronous solutions to complex multithreading problems" },
             { "genetecbackend", "Used .NET's built-in HTTP network features to program fast and foolproof back-end methods that reliably support multithreading" },
-            { "genetectcp", "Used .NET's built-in HTTP network features to send video data across a TCP network between the cameras and the main server" },
+            { "genetectcp", "Used .NET's built-in HTTP network features to send real-time video data across a TCP network between the cameras and the main server" },
             { "genetectest", "Wrote and modified automated unit tests with xUnit for each feature, ensuring code quality" },
             { "genetecdevops", "Followed DevOps practices such as the development of automated unit tests to ensure the code's quality and continuous deployment" },
 
@@ -213,7 +213,7 @@ class Translations
             { "ubisoftaaa", "Développer une application web pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud pour le développement de jeux AAA" },
             { "ubisoftagile", "Travailler dans une équipe agile compétente avec GitLab, et discuter des potentielles améliorations de performance et d'ergonomie" },
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
-            { "ubisoftshell", "Programmer des scripts shell pour gérer l'installation, la désinstallation, l'environnement docker, et la hiérarchie des dossiers" },
+            { "ubisoftshell", "Programmer des scripts shell pour gérer l'installation, la désinstallation, l'environnement Docker, et la hiérarchie des dossiers" },
 
             // Genetec
             { "genetec", "Genetec" },
@@ -225,7 +225,7 @@ class Translations
             { "genetecbilingual", "Opérer au sein d'une équipe et d'une companie hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
             { "genetecmultithread", "Programmer des solutions asynchrones à des problèmes de multithreading complexes" },
             { "genetecbackend", "Utiliser les fonctionnalités réseau HTTP de .NET pour programmer des méthodes back-end en multithreading" },
-            { "genetectcp", "Utiliser les fonctionnalités réseau HTTP de .NET pour transférer les données vidéo à travers un réseau TCP entre les caméras et le serveur principal" },
+            { "genetectcp", "Utiliser les fonctionnalités réseau HTTP de .NET pour transférer les données vidéo en temps réel à travers un réseau TCP entre les caméras et le serveur principal" },
             { "genetectest", "Écrire et modifier des tests unitaires automatisés avec xUnit pour chaque fonctionnalité, assurant la qualité du code" },
             { "genetecdevops", "Suivre des pratiques DevOps tel que le développement de tests unitaires automatisés pour assurer la qualité et la livraison continue du code" },
 

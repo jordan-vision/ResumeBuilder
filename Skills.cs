@@ -80,7 +80,7 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        BACKEND,
+        FULLSTACK,
         GAMEDEV,
         NETWORK,
         TOOLS
@@ -111,12 +111,14 @@ internal class Skills
     };
     public static readonly string[] RELEVANTOS =
     {
-        
+        WINDOWS,
+        LINUX,
+        WSL,
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        GIT,
-        GITHUB,
+        DOCKER,
+        K8S,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
