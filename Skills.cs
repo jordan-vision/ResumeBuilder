@@ -80,26 +80,34 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        DEVOPS,
-        CICD,
-        TOOLS,
+        BACKEND,
+        GAMEDEV,
+        NETWORK,
+        TOOLS
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
+        TS,
+        JS,
+        HTML,
         CSHARP,
-        CPP,
+        JAVA
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-
+        ANGULAR,
+        NODE,
+        REACT,
     };
     public static readonly string[] RELEVANTIDES =
     {
-
+        VS,
+        VSCODE,
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-
+        UNITY,
+        UNREAL,
     };
     public static readonly string[] RELEVANTOS =
     {
@@ -109,13 +117,11 @@ internal class Skills
     {
         GIT,
         GITHUB,
-        AZURE,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
         PROBLEM,
-        MENTOR,
-        AUTO
+        TEAMWORK
     };
     // ---- EDIT END HERE ----
 }
