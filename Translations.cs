@@ -62,11 +62,12 @@ class Translations
             // Vretta
             { "vretta", "Vretta" },
             { "softwaredev", "Software Developer" },
-            { "vrettaStudents", "Developed an online platform with Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
+            { "vrettastudents", "Developed an online platform with Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
             { "vrettanode", "Developed an online platform with Node.js, TypeScript, and Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
-            { "vrettasql", "Scripted SQL queries and API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of data between the database, the back-end, and the front-end" },
-            { "vrettasqlbackend", "Scripted SQL queries and back-end API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of data between the database, the back-end, and the front-end" },
+            { "vrettasql", "Scripted SQL queries and API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
+            { "vrettasqlbackend", "Scripted SQL queries and back-end API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
             { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, ensuring customer satisfaction" },
+            { "vrettacss", "Worked closely with provincial agencies to fine-tune the UI to each agency's preference, using HTML and CSS" },
             { "vrettadoc", "Documented quality assurance plans and user flows for each change in the code, enabling users and quality assurance staff to keep track of them" },
             { "vrettak8s", "Documented quality assurance plans and user flows for each change in the code, to be tested in a Kubernetes environment by the quality assurance team" },
 
@@ -187,9 +188,10 @@ class Translations
             { "softwaredev", "Développeur de Logiciels" },
             { "vrettaStudents", "Développer une plateforme de conception d'évaluations avec Angular, pour plus de 800,000 élèves dans 4 provinces" },
             { "vrettanode", "Développer une plateforme de conception d'évaluations avec Node.js, TypeScript, et Angular, pour plus de 800,000 élèves dans 4 provinces" },
-            { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données entre la base de données, le back-end, et le front-end" },
-            { "vrettasqlbackend", "Scripter des requêtes SQL et des endpoints API dans le back-end en TypeScript pour optimiser le transfert de centaines de giga-octets de données entre la base de données, le back-end, et le front-end" },
+            { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
+            { "vrettasqlbackend", "Scripter des requêtes SQL et des endpoints API dans le back-end en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
             { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, assurant ainsi la satisfaction des clients" },
+            { "vrettacss", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, en utilisant CSS et HTML" },
             { "vrettadoc", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
             { "vrettak8s", "DDocumenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que le personnel d'assurance qualité testent ces modifications dans un environnement Kubernetes" },
 

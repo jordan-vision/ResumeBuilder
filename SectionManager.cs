@@ -154,6 +154,13 @@ class SectionManager
             Utilities.BulletPoint(columnDescriptor, os);
         }
 
+        // Add terminals as a single bullet point
+        var terminals = String.Join(", ", Skills.RELEVANTTERMINALS);
+        if (terminals.Length != 0)
+        {
+            Utilities.BulletPoint(columnDescriptor, terminals);
+        }
+
         // Add other software as a single bullet point
         var software = String.Join(", ", Skills.RELEVANTSOFTWARE);
         if (software.Length != 0)

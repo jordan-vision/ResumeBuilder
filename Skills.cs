@@ -5,7 +5,7 @@ internal class Skills
     // Hard skills
     const string FULLSTACK = "fullstack";
     const string DEVOPS = "devops";
-    const string DATABASES = "databases";
+    const string DB = "databases";
     const string OOP = "oop";
     const string MULTITHREAD = "multithread";
     const string BACKEND = "backend";
@@ -30,6 +30,8 @@ internal class Skills
     const string HTML = "HTML";
     const string SQL = "SQL";
     const string TS = "TypeScript";
+    const string CSS = "CSS";
+    const string JSON = "JSON";
 
     // Frameworks
     const string ANGULAR = "Angular";
@@ -56,6 +58,10 @@ internal class Skills
     const string WINDOWS = "Windows";
     const string WSL = "Ubuntu";
 
+    // Terminals
+    const string PWS = "Windows Powershell";
+    const string UNIX = "Unix Shell / Linux Terminal";
+
     // Other Software
     const string NOTION = "Notion";
     const string MSOFFICE = "Microsoft Office Suite";
@@ -80,24 +86,26 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        FULLSTACK,
-        GAMEDEV,
-        NETWORK,
-        TOOLS
+        FRONTEND,
+        WEB,
+        UI,
+        DB,
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
         TS,
         JS,
         HTML,
+        CSS,
+        JSON,
         CSHARP,
-        JAVA
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
         ANGULAR,
         NODE,
         REACT,
+        BLAZOR,
     };
     public static readonly string[] RELEVANTIDES =
     {
@@ -106,8 +114,7 @@ internal class Skills
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        UNITY,
-        UNREAL,
+        
     };
     public static readonly string[] RELEVANTOS =
     {
@@ -115,10 +122,16 @@ internal class Skills
         LINUX,
         WSL,
     };
+    public static readonly string[] RELEVANTTERMINALS =
+    {
+        PWS,
+        UNIX,
+    };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        DOCKER,
-        K8S,
+        GIT,
+        GITHUB,
+        GITLAB,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {

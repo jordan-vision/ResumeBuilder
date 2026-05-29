@@ -55,9 +55,9 @@ class JobManager
         // Vretta
         vretta.Include = true;
         vretta.ShowDetails = true;
-        vrettaSoftware.Accomplishments.Add("vrettanode");
-        vrettaSoftware.Accomplishments.Add("vrettasqlbackend");
-        vrettaSoftware.Accomplishments.Add("vrettak8s");
+        vrettaSoftware.Accomplishments.Add("vrettastudents");
+        vrettaSoftware.Accomplishments.Add("vrettasql");
+        vrettaSoftware.Accomplishments.Add("vrettadoc");
         
         //Hogg
         hogg.Include = false;
@@ -74,16 +74,16 @@ class JobManager
         // Ubisoft
         ubisoft.Include = true;
         ubisoft.ShowDetails = true;
-        ubisoftIntern.Accomplishments.Add("ubisoftaaa");
+        ubisoftIntern.Accomplishments.Add("ubisoftcicd");
         ubisoftIntern.Accomplishments.Add("ubisoftshell");
         ubisoftIntern.Accomplishments.Add("ubisoftagile");
 
         // Genetec
         genetec.Include = true;
         genetec.ShowDetails = true;
-        genetecIntern.Accomplishments.Add("geneteccamera");
-        genetecIntern.Accomplishments.Add("genetectcp");
-        genetecIntern.Accomplishments.Add("genetecdevops");
+        genetecIntern.Accomplishments.Add("geneteccameraoop");
+        genetecIntern.Accomplishments.Add("genetecbilingual");
+        genetecIntern.Accomplishments.Add("genetectest");
         // ---- EDIT END HERE ----
 
         jobsSetup = true;
@@ -131,7 +131,7 @@ class JobManager
         // ---- EDIT START HERE----
         // CGD
         cgd.Include = true;
-        cgd.ShowDetails = true;
+        cgd.ShowDetails = false;
         cgdHead.Accomplishments.Add("cgdwebsite");
 
         // Music Club
@@ -148,8 +148,8 @@ class JobManager
         somm.ShowDetails = false;
 
         // VRConcert
-        vrconcert.Include = false;
-        vrconcert.ShowDetails = false;
+        vrconcert.Include = true;
+        vrconcert.ShowDetails = true;
         vrconcertprogrammer.Accomplishments.Add("vrconcertdescription");
         // ---- EDIT END HERE ----
 
