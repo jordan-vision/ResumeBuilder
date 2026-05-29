@@ -86,26 +86,19 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        FRONTEND,
-        WEB,
-        UI,
-        DB,
+        OOP,
+        RELATIONAL,
+        DEVOPS,
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        TS,
-        JS,
-        HTML,
-        CSS,
-        JSON,
+        CPP,
         CSHARP,
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        ANGULAR,
-        NODE,
-        REACT,
-        BLAZOR,
+        DOTNET,
+        ASP,
     };
     public static readonly string[] RELEVANTIDES =
     {
@@ -125,13 +118,10 @@ internal class Skills
     public static readonly string[] RELEVANTTERMINALS =
     {
         PWS,
-        UNIX,
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        GIT,
-        GITHUB,
-        GITLAB,
+
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {

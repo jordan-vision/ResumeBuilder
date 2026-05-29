@@ -74,7 +74,7 @@ class JobManager
         // Ubisoft
         ubisoft.Include = true;
         ubisoft.ShowDetails = true;
-        ubisoftIntern.Accomplishments.Add("ubisoftcicd");
+        ubisoftIntern.Accomplishments.Add("ubisoftaaa");
         ubisoftIntern.Accomplishments.Add("ubisoftshell");
         ubisoftIntern.Accomplishments.Add("ubisoftagile");
 
@@ -83,7 +83,7 @@ class JobManager
         genetec.ShowDetails = true;
         genetecIntern.Accomplishments.Add("geneteccameraoop");
         genetecIntern.Accomplishments.Add("genetecbilingual");
-        genetecIntern.Accomplishments.Add("genetectest");
+        genetecIntern.Accomplishments.Add("genetecdevops");
         // ---- EDIT END HERE ----
 
         jobsSetup = true;

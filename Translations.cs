@@ -68,7 +68,7 @@ class Translations
             { "vrettasqlbackend", "Scripted SQL queries and back-end API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
             { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, ensuring customer satisfaction" },
             { "vrettacss", "Worked closely with provincial agencies to fine-tune the UI to each agency's preference, using HTML and CSS" },
-            { "vrettadoc", "Documented quality assurance plans and user flows for each change in the code, enabling users and quality assurance staff to keep track of them" },
+            { "vrettadoc", "Documented quality assurance plans and user flows for each change in the code, allowing users and quality assurance staff to keep track of them" },
             { "vrettak8s", "Documented quality assurance plans and user flows for each change in the code, to be tested in a Kubernetes environment by the quality assurance team" },
 
             // Hogg
@@ -96,8 +96,8 @@ class Translations
             // Genetec
             { "genetec", "Genetec" },
             { "softwaredevintern", "Software Developer Intern" },
-            { "geneteccamera", "Developed the infrastructure for two security camera models in .NET C#, one built upon Windows and the other upon Linux" },
-            { "geneteccameraoop", "Developed an object-oriented infrastructure for two security camera models in .NET C#, one built upon Windows and the other upon Linux" },
+            { "geneteccamera", "Developed the infrastructure for two security camera models in .NET C#, one built for Windows and the other for Linux" },
+            { "geneteccameraoop", "Developed an object-oriented infrastructure for two security camera models in .NET C#, one built for Windows and the other for Linux" },
             { "geneteccameravideo", "Developed an infrastructure for two security camera models in .NET C#, with video analysis and computer vision features" },
             { "genetecport", "Ported the web portal for managing these cameras, coded in JavaScript, from React to Angular" },
             { "genetecbilingual", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
@@ -186,7 +186,7 @@ class Translations
             // Vretta
             { "vretta", "Vretta" },
             { "softwaredev", "Développeur de Logiciels" },
-            { "vrettaStudents", "Développer une plateforme de conception d'évaluations avec Angular, pour plus de 800,000 élèves dans 4 provinces" },
+            { "vrettastudents", "Développer une plateforme de conception d'évaluations avec Angular, pour plus de 800,000 élèves dans 4 provinces" },
             { "vrettanode", "Développer une plateforme de conception d'évaluations avec Node.js, TypeScript, et Angular, pour plus de 800,000 élèves dans 4 provinces" },
             { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
             { "vrettasqlbackend", "Scripter des requêtes SQL et des endpoints API dans le back-end en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
