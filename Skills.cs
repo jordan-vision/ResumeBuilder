@@ -85,62 +85,60 @@ internal class Skills
     const string ADAPT = "adaptability";
     const string AUTO = "autonomy";
     const string ORG = "organization";
+    const string TIME = "time";
 
 
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        QA,
-        GAMEDEV,
+        CICD,
         DEVOPS,
+        QA,
+        RELATIONAL
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
         CSHARP,
+        SQL,
         CPP,
-        JS,
-        JAVA,
+        PYTHON
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        
+        DOTNET,
+        ASP,
+        WPF,
+        BLAZOR
     };
     public static readonly string[] RELEVANTIDES =
     {
-        
+        VS,
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        UNITY,
-        UNREAL,
+        
     };
     public static readonly string[] RELEVANTOS =
     {
-        WINDOWS,
-        LINUX,
-        WSL,
+        
     };
     public static readonly string[] RELEVANTTERMINALS =
     {
-        PWS,
-        UNIX,
+        
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        GOOGLE,
-        MSOFFICE,
-        NOTION,
-        AWS,
-        AZURE,
         GIT,
-        GITHUB,
-        BLENDER,
+        GITLAB,
+        AZURE,
+        AWS,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
-        ORG,
-        PROBLEM,
         TEAMWORK,
+        PROBLEM,
+        TIME,
+        ORG,
     };
     // ---- EDIT END HERE ----
 }

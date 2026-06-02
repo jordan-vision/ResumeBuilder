@@ -56,6 +56,7 @@ class Translations
             { "adaptability", "Adaptability" },
             { "autonomy", "Autonomy" },
             { "organization", "Organization" },
+            { "time", "Time Management" },
 
             // Languages
             { "english", "English: Fluent" },
@@ -188,6 +189,7 @@ class Translations
             { "adaptability", "Adaptabilité" },
             { "autonomy", "Autonomie" },
             { "organization", "Organisation" },
+            { "time", "Gestion du Temps" },
 
             // Languages
             { "english", "Anglais: Courant" },
