@@ -20,6 +20,8 @@ internal class Skills
     const string TOOLS = "tools";
     const string FRONTEND = "frontend";
     const string UI = "ui";
+    const string ONLINE = "online";
+    const string QA = "qa";
 
     // Languages
     const string CSHARP = "C#";
@@ -86,14 +88,17 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        OOP,
-        RELATIONAL,
+        GAMEDEV,
         DEVOPS,
+        QA,
+        UI
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        CPP,
         CSHARP,
+        CPP,
+        JS,
+        JAVA,
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
@@ -107,7 +112,8 @@ internal class Skills
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        
+        UNITY,
+        UNREAL,
     };
     public static readonly string[] RELEVANTOS =
     {
@@ -117,11 +123,14 @@ internal class Skills
     };
     public static readonly string[] RELEVANTTERMINALS =
     {
-        PWS,
+        
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-
+        GIT,
+        GITHUB,
+        AWS,
+        BLENDER,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {

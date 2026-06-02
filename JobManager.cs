@@ -56,7 +56,7 @@ class JobManager
         vretta.Include = true;
         vretta.ShowDetails = true;
         vrettaSoftware.Accomplishments.Add("vrettastudents");
-        vrettaSoftware.Accomplishments.Add("vrettasql");
+        vrettaSoftware.Accomplishments.Add("vrettagov");
         vrettaSoftware.Accomplishments.Add("vrettadoc");
         
         //Hogg
@@ -81,7 +81,7 @@ class JobManager
         // Genetec
         genetec.Include = true;
         genetec.ShowDetails = true;
-        genetecIntern.Accomplishments.Add("geneteccameraoop");
+        genetecIntern.Accomplishments.Add("geneteccamera");
         genetecIntern.Accomplishments.Add("genetecbilingual");
         genetecIntern.Accomplishments.Add("genetecdevops");
         // ---- EDIT END HERE ----
@@ -128,9 +128,15 @@ class JobManager
         vrconcert.Positions.Add(vrconcertprogrammer);
         Volunteering.Add(vrconcert);
 
+        // Game jams
+        Position gamejamparticipant = new("participant", (7, 20), (10, 24));
+        Job gamejams = new("gamejams");
+        gamejams.Positions.Add(gamejamparticipant);
+        Volunteering.Add(gamejams);
+
         // ---- EDIT START HERE----
         // CGD
-        cgd.Include = true;
+        cgd.Include = false;
         cgd.ShowDetails = false;
         cgdHead.Accomplishments.Add("cgdwebsite");
 
@@ -139,8 +145,8 @@ class JobManager
         musicClub.ShowDetails = false;
 
         // Game Lab
-        gameLab.Include = false;
-        gameLab.ShowDetails = false;
+        gameLab.Include = true;
+        gameLab.ShowDetails = true;
         gameLabProgrammer.Accomplishments.Add("gamelablan");
 
         // Somm
@@ -148,9 +154,14 @@ class JobManager
         somm.ShowDetails = false;
 
         // VRConcert
-        vrconcert.Include = true;
-        vrconcert.ShowDetails = true;
+        vrconcert.Include = false;
+        vrconcert.ShowDetails = false;
         vrconcertprogrammer.Accomplishments.Add("vrconcertdescription");
+
+        // Game jams
+        gamejams.Include = true;
+        gamejams.ShowDetails = true;
+        gamejamparticipant.Accomplishments.Add("topspots");
         // ---- EDIT END HERE ----
 
         volunteeringSetup = true;

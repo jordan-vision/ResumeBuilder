@@ -47,6 +47,8 @@ class Translations
             { "tools", "Tools Programming" },
             { "frontend", "Front-End Programming" },
             { "ui", "UI Programming" },
+            { "online", "Online Programming" },
+            { "qa", "Quality Assurance" },
 
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
@@ -131,6 +133,11 @@ class Translations
             { "vrconcert", "VRConcert" },
             { "designerprogrammer", "Designer & Programmer" },
             { "vrconcertdescription", "Built a VR scene in the Unreal Engine using blueprints, that allowed users to improvise with musical instruments" },
+
+            // Game jams
+            { "gamejams", "Various Game Jams" },
+            { "participant", "Programmer / Composer / Sound Designer" },
+            { "topspots", "Participated in 8 game jams including CGD Jam 2023 (4th place) and Global Game Jam 2024 (1st place in Concordia site)" },
         });
 
         translations.Add(FRENCH, new()
@@ -171,6 +178,8 @@ class Translations
             { "tools", "Programmation d'Outils" },
             { "frontend", "Programmation Front-End" },
             { "ui", "Programmation d'Interface Utilisateur" },
+            { "online", "Programmation En-Ligne" },
+            { "qa", "Assurance Qualité" },
 
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Travail d'Équipe" },
@@ -255,6 +264,11 @@ class Translations
             { "vrconcert", "VRConcert" },
             { "designerprogrammer", "Designer et Programmeur" },
             { "vrconcertdescription", "Construire une scène en réalité virtuelle dans Unreal Engine, avec les blueprints, qui permet aux utilisateurs d'improviser avec des instruments musicaux" },
+
+            // Game jams
+            { "gamejams", "Game Jams Divers" },
+            { "participant", "Programmeur / Compositeur / Soud Designer" },
+            { "topspots", "Participer dans 8 game jams dont CGD Jam 2023 (4ème place) et Global Game Jam 2024 (1ère place au site Concordia)" },
         });
         
         var englishKeys = translations[ENGLISH].Keys.ToList();
