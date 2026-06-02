@@ -136,7 +136,7 @@ class JobManager
 
         // ---- EDIT START HERE----
         // CGD
-        cgd.Include = false;
+        cgd.Include = true;
         cgd.ShowDetails = false;
         cgdHead.Accomplishments.Add("cgdwebsite");
 
@@ -145,8 +145,8 @@ class JobManager
         musicClub.ShowDetails = false;
 
         // Game Lab
-        gameLab.Include = true;
-        gameLab.ShowDetails = true;
+        gameLab.Include = false;
+        gameLab.ShowDetails = false;
         gameLabProgrammer.Accomplishments.Add("gamelablan");
 
         // Somm

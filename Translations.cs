@@ -55,6 +55,7 @@ class Translations
             { "mentorship", "Mentorship" },
             { "adaptability", "Adaptability" },
             { "autonomy", "Autonomy" },
+            { "organization", "Organization" },
 
             // Languages
             { "english", "English: Fluent" },
@@ -186,6 +187,7 @@ class Translations
             { "mentorship", "Mentorat" },
             { "adaptability", "Adaptabilité" },
             { "autonomy", "Autonomie" },
+            { "organization", "Organisation" },
 
             // Languages
             { "english", "Anglais: Courant" },

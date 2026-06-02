@@ -76,6 +76,7 @@ internal class Skills
     const string DOCKER = "Docker";
     const string K8S = "Kubernetes";
     const string REDIS = "Redis";
+    const string GOOGLE = "Google Suite";
 
     // Soft skills
     const string PROBLEM = "problem";
@@ -83,15 +84,15 @@ internal class Skills
     const string MENTOR = "mentorship";
     const string ADAPT = "adaptability";
     const string AUTO = "autonomy";
+    const string ORG = "organization";
 
 
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
+        QA,
         GAMEDEV,
         DEVOPS,
-        QA,
-        UI
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
@@ -102,13 +103,11 @@ internal class Skills
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        DOTNET,
-        ASP,
+        
     };
     public static readonly string[] RELEVANTIDES =
     {
-        VS,
-        VSCODE,
+        
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
@@ -123,19 +122,25 @@ internal class Skills
     };
     public static readonly string[] RELEVANTTERMINALS =
     {
-        
+        PWS,
+        UNIX,
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
+        GOOGLE,
+        MSOFFICE,
+        NOTION,
+        AWS,
+        AZURE,
         GIT,
         GITHUB,
-        AWS,
         BLENDER,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
+        ORG,
         PROBLEM,
-        TEAMWORK
+        TEAMWORK,
     };
     // ---- EDIT END HERE ----
 }
