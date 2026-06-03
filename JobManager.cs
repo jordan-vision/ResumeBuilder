@@ -55,8 +55,8 @@ class JobManager
         // Vretta
         vretta.Include = true;
         vretta.ShowDetails = true;
-        vrettaSoftware.Accomplishments.Add("vrettastudents");
-        vrettaSoftware.Accomplishments.Add("vrettasql");
+        vrettaSoftware.Accomplishments.Add("vrettastudentscanada");
+        vrettaSoftware.Accomplishments.Add("vrettacss");
         vrettaSoftware.Accomplishments.Add("vrettadoc");
         
         //Hogg
@@ -74,14 +74,14 @@ class JobManager
         // Ubisoft
         ubisoft.Include = true;
         ubisoft.ShowDetails = true;
-        ubisoftIntern.Accomplishments.Add("ubisoftwpf");
+        ubisoftIntern.Accomplishments.Add("ubisoftaaa");
         ubisoftIntern.Accomplishments.Add("ubisoftshell");
         ubisoftIntern.Accomplishments.Add("ubisoftagile");
 
         // Genetec
         genetec.Include = true;
         genetec.ShowDetails = true;
-        genetecIntern.Accomplishments.Add("geneteccamera");
+        genetecIntern.Accomplishments.Add("geneteccameraoop");
         genetecIntern.Accomplishments.Add("genetectcp");
         genetecIntern.Accomplishments.Add("genetecdevops");
         // ---- EDIT END HERE ----
@@ -136,8 +136,8 @@ class JobManager
 
         // ---- EDIT START HERE----
         // CGD
-        cgd.Include = true;
-        cgd.ShowDetails = true;
+        cgd.Include = false;
+        cgd.ShowDetails = false;
         cgdHead.Accomplishments.Add("cgdwebsite");
 
         // Music Club
@@ -145,7 +145,7 @@ class JobManager
         musicClub.ShowDetails = false;
 
         // Game Lab
-        gameLab.Include = true;
+        gameLab.Include = false;
         gameLab.ShowDetails = false;
         gameLabProgrammer.Accomplishments.Add("gamelablan");
 
@@ -154,13 +154,13 @@ class JobManager
         somm.ShowDetails = false;
 
         // VRConcert
-        vrconcert.Include = false;
-        vrconcert.ShowDetails = false;
+        vrconcert.Include = true;
+        vrconcert.ShowDetails = true;
         vrconcertprogrammer.Accomplishments.Add("vrconcertdescription");
 
         // Game jams
-        gamejams.Include = false;
-        gamejams.ShowDetails = false;
+        gamejams.Include = true;
+        gamejams.ShowDetails = true;
         gamejamparticipant.Accomplishments.Add("topspots");
         // ---- EDIT END HERE ----
 

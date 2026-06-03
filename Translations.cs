@@ -49,6 +49,8 @@ class Translations
             { "ui", "UI Programming" },
             { "online", "Online Programming" },
             { "qa", "Quality Assurance" },
+            { "vr", "Virtual Reality Development" },
+            { "prototyping", "Prototyping" },
 
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
@@ -57,6 +59,7 @@ class Translations
             { "autonomy", "Autonomy" },
             { "organization", "Organization" },
             { "time", "Time Management" },
+            { "creativity", "Creativity" },
 
             // Languages
             { "english", "English: Fluent" },
@@ -67,6 +70,7 @@ class Translations
             { "vretta", "Vretta" },
             { "softwaredev", "Software Developer" },
             { "vrettastudents", "Developed an online platform with Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
+            { "vrettastudentscanada", "Developed an online platform, with the purpose of designing assessments for over 800,000 students in 4 Canadian provinces" },
             { "vrettanode", "Developed an online platform with Node.js, TypeScript, and Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
             { "vrettasql", "Scripted SQL queries and API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
             { "vrettasqlbackend", "Scripted SQL queries and back-end API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
@@ -182,6 +186,8 @@ class Translations
             { "ui", "Programmation d'Interface Utilisateur" },
             { "online", "Programmation En-Ligne" },
             { "qa", "Assurance Qualité" },
+            { "vr", "Développement d'Appications en Réalité Virtuelle" },
+            { "prototyping", "Prototyping" },
 
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Travail d'Équipe" },
@@ -190,6 +196,7 @@ class Translations
             { "autonomy", "Autonomie" },
             { "organization", "Organisation" },
             { "time", "Gestion du Temps" },
+            { "creativity", "Créativité" },
 
             // Languages
             { "english", "Anglais: Courant" },
@@ -200,6 +207,7 @@ class Translations
             { "vretta", "Vretta" },
             { "softwaredev", "Développeur de Logiciels" },
             { "vrettastudents", "Développer une plateforme de conception d'évaluations avec Angular, pour plus de 800,000 élèves dans 4 provinces" },
+            { "vrettastudentscanada", "Développer une plateforme de conception d'évaluations, pour plus de 800,000 élèves dans 4 provinces canadiennes" },
             { "vrettanode", "Développer une plateforme de conception d'évaluations avec Node.js, TypeScript, et Angular, pour plus de 800,000 élèves dans 4 provinces" },
             { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
             { "vrettasqlbackend", "Scripter des requêtes SQL et des endpoints API dans le back-end en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
