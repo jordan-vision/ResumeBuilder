@@ -94,24 +94,35 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        GAMEDEV,
-        UI,
-        VR,
-        ONLINE,
-        PROTO,
+        DEVOPS,
+        CICD,
+        FULLSTACK,
+        UI
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
+        CSHARP,
+        JS,
+        TS,
+        SQL,
         CPP,
-        CSHARP
+        JAVA,
+        PYTHON
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        OPENGL
+        DOTNET,
+        ASP,
+        NODE,
+        ANGULAR,
+        REACT,
+        BLAZOR
     };
     public static readonly string[] RELEVANTIDES =
     {
         VS,
+        VSCODE,
+        ECLIPSE
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
@@ -128,9 +139,9 @@ internal class Skills
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
+        MSOFFICE,
         GITHUB,
         GIT,
-        BLENDER
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
