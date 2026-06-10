@@ -47,6 +47,7 @@ internal class Skills
     const string REACT = "React";
     const string NODE = "Node.js";
     const string WPF = "WPF";
+    const string DOTNETCORE = ".NET Core";
 
     // IDEs
     const string VS = "Visual Studio";
@@ -95,22 +96,27 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        NETWORK,
-        FULLSTACK,
+        FRONTEND,
+        UI,
+        WEB,
         DEVOPS,
-        RELATIONAL
+        CICD
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        PYTHON,
-        CPP,
-        JAVA,
-        SQL,
-        CSHARP
+        TS,
+        HTML,
+        CSHARP,
+        PYTHON
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        
+        ANGULAR,
+        NODE,
+        DOTNET,
+        DOTNETCORE,
+        ASP,
+        REACT
     };
     public static readonly string[] RELEVANTIDES =
     {
@@ -130,17 +136,15 @@ internal class Skills
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        REDIS,
-        DOCKER,
-        K8S,
-        GIT
+        AZURE,
+        AWS,
+        GIT,
+        GITLAB
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
-        TEAMWORK,
-        ADAPT,
-        PROBLEM,
-        TIME,
+        AUTO,
+        TEAMWORK
     };
     // ---- EDIT END HERE ----
 }

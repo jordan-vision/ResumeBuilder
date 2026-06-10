@@ -105,7 +105,7 @@ class Translations
             { "ubisoftwpf", "Developed a WPF web app in Blazor and C# that distributes CI/CD pipelines across the local network, reducing cloud server expenses" },
             { "ubisoftaaa", "Developed a web app that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses for developing AAA games" },
 
-            { "ubisoftagile", "Worked within an agile team, actively contributed in discussing improvements in performance and usability, and used GitLab for version control" },
+            { "ubisoftagile", "Worked within an Agile team, actively contributed in discussing improvements in performance and usability, and used GitLab for version control" },
 
             { "ubisoftblazor", "Constructed the app's UI from the ground up in HTML and CSS, through the Blazor framework" },
 
@@ -209,7 +209,7 @@ class Translations
             { "embedded", "Programmation de Systèmes Embarqués" },
 
             { "problem", "Résolution de problèmes" },
-            { "teamwork", "Communication et Travail d'Équipe" },
+            { "teamwork", "Communication et Esprit d'Équipe" },
             { "mentorship", "Mentorat" },
             { "adaptability", "Adaptabilité" },
             { "autonomy", "Autonomie" },
@@ -236,9 +236,9 @@ class Translations
             { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, assurant ainsi la satisfaction des clients" },
             { "vrettacss", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, en utilisant CSS et HTML" },
 
-            { "vrettadoc", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
-            { "vrettak8s", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que le personnel d'assurance qualité testent ces modifications dans un environnement Kubernetes" },
-            { "vrettasop", "Documenterles plans d'assurance qualité et les SOP pour chaque modification du code, pour que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
+            { "vrettadoc", "Documenter les plans d'assurance qualité et les user flow pour chaque modification du code, afin que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
+            { "vrettak8s", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, afin que le personnel d'assurance qualité testent ces modifications dans un environnement Kubernetes" },
+            { "vrettasop", "Documenterles plans d'assurance qualité et les SOP pour chaque modification du code, afin que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
 
             // Hogg
             { "hogg", "Quincaillerie Hogg" },
@@ -256,11 +256,11 @@ class Translations
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Stagiare en Programmation d'Outils" },
 
-            { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
-            { "ubisoftwpf", "Développer une application web WPF avec Blazor et C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
-            { "ubisoftaaa", "Développer une application web pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud pour le développement de jeux AAA" },
+            { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud" },
+            { "ubisoftwpf", "Développer une application web WPF avec Blazor et C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud" },
+            { "ubisoftaaa", "Développer une application web pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud pour le développement de jeux AAA" },
 
-            { "ubisoftagile", "Travailler dans une équipe agile compétente avec GitLab, et discuter des potentielles améliorations de performance et d'ergonomie" },
+            { "ubisoftagile", "Travailler dans une équipe Agile compétente avec GitLab, et discuter des potentielles améliorations de performance et d'ergonomie" },
 
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
 
