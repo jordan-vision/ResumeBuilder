@@ -21,7 +21,7 @@ internal class ResumeSettings
 
     // ---- EDIT START HERE ----
     public const string CURRENTLANGUAGE = Translations.ENGLISH;
-    public const string FILENAMEEXTRA = "jam industries rpa";
+    public const string FILENAMEEXTRA = "drw software developer";
     const JobPositions JOBPOSITION = JobPositions.Dev;
     public const SortingMethod SORTINGMETHOD = SortingMethod.Start;
     // ---- EDIT END HERE ----

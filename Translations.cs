@@ -51,6 +51,7 @@ class Translations
             { "qa", "Quality Assurance" },
             { "vr", "Virtual Reality Development" },
             { "prototyping", "Prototyping" },
+            { "embedded", "Embedded Systems Programming" },
 
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
@@ -69,15 +70,20 @@ class Translations
             // Vretta
             { "vretta", "Vretta" },
             { "softwaredev", "Software Developer" },
+
             { "vrettastudents", "Developed an online platform with Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
             { "vrettastudentscanada", "Developed an online platform, with the purpose of designing assessments for over 800,000 students in 4 Canadian provinces" },
             { "vrettanode", "Developed an online platform with Node.js, TypeScript, and Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
+
             { "vrettasql", "Scripted SQL queries and API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
             { "vrettasqlbackend", "Scripted SQL queries and back-end API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
+
             { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, ensuring customer satisfaction" },
             { "vrettacss", "Worked closely with provincial agencies to fine-tune the UI to each agency's preference, using HTML and CSS" },
+
             { "vrettadoc", "Documented quality assurance plans and user flows for each change in the code, allowing users and quality assurance staff to keep track of them" },
             { "vrettak8s", "Documented quality assurance plans and user flows for each change in the code, to be tested in a Kubernetes environment by the quality assurance team" },
+            { "vrettasop", "Documented quality assurance plans and SOPs for each change in the code, allowing users and quality assurance staff to keep track of them" },
 
             // Hogg
             { "hogg", "Hogg Hardware" },
@@ -94,26 +100,38 @@ class Translations
             // Ubisoft
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Tools Programmer Intern" },
+
             { "ubisoftcicd", "Developed an ASP.NET web app in C# that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses" },
             { "ubisoftwpf", "Developed a WPF web app in Blazor and C# that distributes CI/CD pipelines across the local network, reducing cloud server expenses" },
             { "ubisoftaaa", "Developed a web app that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses for developing AAA games" },
+
             { "ubisoftagile", "Worked within an agile team, actively contributed in discussing improvements in performance and usability, and used GitLab for version control" },
+
             { "ubisoftblazor", "Constructed the app's UI from the ground up in HTML and CSS, through the Blazor framework" },
+
             { "ubisoftshell", "Wrote shell scripts to manage the installation and uninstallation of the app, its Docker environment, and its folder hierarchy" },
 
             // Genetec
             { "genetec", "Genetec" },
             { "softwaredevintern", "Software Developer Intern" },
+
             { "geneteccamera", "Developed the infrastructure for two security camera models in .NET C#, one built for Windows and the other for Linux" },
             { "geneteccameraoop", "Developed an object-oriented infrastructure for two security camera models in .NET C#, one built for Windows and the other for Linux" },
             { "geneteccameravideo", "Developed an infrastructure for two security camera models in .NET C#, with video analysis and computer vision features" },
+            { "geneteccameraembedded", "Developed an embedded software for two security camera models in .NET C#, one built for Windows and the other for Linux" },
+
             { "genetecport", "Ported the web portal for managing these cameras, coded in JavaScript, from React to Angular" },
+
             { "genetecbilingual", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
+
             { "genetecmultithread", "Programming asynchronous solutions to complex multithreading problems" },
             { "genetecbackend", "Used .NET's built-in HTTP network features to program fast and foolproof back-end methods that reliably support multithreading" },
             { "genetectcp", "Used .NET's built-in HTTP network features to send real-time video data across a TCP network between the cameras and the main server" },
+            { "genetectcpip", "Used .NET's HTTP network features to send real-time video data across a TCP/IP network between the cameras and the main server" },
+
             { "genetectest", "Wrote and modified automated unit tests with xUnit for each feature, ensuring code quality" },
             { "genetecdevops", "Followed DevOps practices such as the development of automated unit tests to ensure the code's quality and continuous deployment" },
+            { "genetecsoen", "Followed software engineering practices such as the development of automated unit tests to ensure the code's quality and continuous deployment" },
 
             // CGD
             { "cgd", "Concordia Game Development" },
@@ -188,6 +206,7 @@ class Translations
             { "qa", "Assurance Qualité" },
             { "vr", "Développement d'Appications en Réalité Virtuelle" },
             { "prototyping", "Prototyping" },
+            { "embedded", "Programmation de Systèmes Embarqués" },
 
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Travail d'Équipe" },
@@ -206,15 +225,20 @@ class Translations
             // Vretta
             { "vretta", "Vretta" },
             { "softwaredev", "Développeur de Logiciels" },
+
             { "vrettastudents", "Développer une plateforme de conception d'évaluations avec Angular, pour plus de 800,000 élèves dans 4 provinces" },
             { "vrettastudentscanada", "Développer une plateforme de conception d'évaluations, pour plus de 800,000 élèves dans 4 provinces canadiennes" },
             { "vrettanode", "Développer une plateforme de conception d'évaluations avec Node.js, TypeScript, et Angular, pour plus de 800,000 élèves dans 4 provinces" },
+
             { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
             { "vrettasqlbackend", "Scripter des requêtes SQL et des endpoints API dans le back-end en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
+
             { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, assurant ainsi la satisfaction des clients" },
             { "vrettacss", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, en utilisant CSS et HTML" },
+
             { "vrettadoc", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
-            { "vrettak8s", "DDocumenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que le personnel d'assurance qualité testent ces modifications dans un environnement Kubernetes" },
+            { "vrettak8s", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, pour que le personnel d'assurance qualité testent ces modifications dans un environnement Kubernetes" },
+            { "vrettasop", "Documenterles plans d'assurance qualité et les SOP pour chaque modification du code, pour que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
 
             // Hogg
             { "hogg", "Quincaillerie Hogg" },
@@ -231,26 +255,38 @@ class Translations
             // Ubisoft
             { "ubisoft", "Ubisoft" },
             { "toolsprogrammerintern", "Stagiare en Programmation d'Outils" },
+
             { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
             { "ubisoftwpf", "Développer une application web WPF avec Blazor et C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud" },
             { "ubisoftaaa", "Développer une application web pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses liées aux serveurs cloud pour le développement de jeux AAA" },
+
             { "ubisoftagile", "Travailler dans une équipe agile compétente avec GitLab, et discuter des potentielles améliorations de performance et d'ergonomie" },
+
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
+
             { "ubisoftshell", "Programmer des scripts shell pour gérer l'installation, la désinstallation, l'environnement Docker, et la hiérarchie des dossiers" },
 
             // Genetec
             { "genetec", "Genetec" },
             { "softwaredevintern", "Stagiaire en Développement de Logiciels" },
+
             { "geneteccamera", "Développer une infrastructure pour deux modèles de caméras de sécurité en .NET C#, l'un basé sur Windows, et l'autre sur Linux" },
             { "geneteccameraoop", "Développer une infrastructure orientée objet pour deux modèles de caméras de sécurité en .NET C#, l'un basé sur Windows, et l'autre sur Linux" },
             { "geneteccameravideo", "Développer une infrastructure pour des caméras de sécurité en .NET C#, avec des fonctions d'analyze de vidéo et de vision par ordinateur" },
+            { "geneteccameraembedded", "Développer des logiciels embarqués pour des caméras de sécurité en .NET C#, l'un basé sur Windows, et l'autre sur Linux" },
+
             { "genetecport", "Adapter le portail web pour la gestion de ces caméras, programmé avec JavaScript, de React à Angular" },
+
             { "genetecbilingual", "Opérer au sein d'une équipe et d'une companie hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
+
             { "genetecmultithread", "Programmer des solutions asynchrones à des problèmes de multithreading complexes" },
             { "genetecbackend", "Utiliser les fonctionnalités réseau HTTP de .NET pour programmer des méthodes back-end en multithreading" },
             { "genetectcp", "Utiliser les fonctionnalités réseau HTTP de .NET pour transférer les données vidéo en temps réel à travers un réseau TCP entre les caméras et le serveur principal" },
+            { "genetectcpip", "Utiliser les fonctionnalités réseau HTTP de .NET pour transférer les données vidéo en temps réel à travers un réseau TCP/IP entre les caméras et le serveur principal" },
+
             { "genetectest", "Écrire et modifier des tests unitaires automatisés avec xUnit pour chaque fonctionnalité, assurant la qualité du code" },
             { "genetecdevops", "Suivre des pratiques DevOps tel que le développement de tests unitaires automatisés pour assurer la qualité et la livraison continue du code" },
+            { "genetecsoen", "Suivre des pratiques d'ingénierie logiciel tel que le développement de tests unitaires automatisés pour assurer la qualité et la livraison continue du code" },
 
             // CGD
             { "cgd", "Concordia Game Development" },

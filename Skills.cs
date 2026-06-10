@@ -24,6 +24,7 @@ internal class Skills
     const string QA = "qa";
     const string VR = "vr";
     const string PROTO = "prototyping";
+    const string EMBED = "embedded";
 
     // Languages
     const string CSHARP = "C#";
@@ -94,40 +95,30 @@ internal class Skills
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        DEVOPS,
-        CICD,
+        NETWORK,
         FULLSTACK,
-        UI
+        DEVOPS,
+        RELATIONAL
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        CSHARP,
-        JS,
-        TS,
-        SQL,
+        PYTHON,
         CPP,
         JAVA,
-        PYTHON
+        SQL,
+        CSHARP
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        DOTNET,
-        ASP,
-        NODE,
-        ANGULAR,
-        REACT,
-        BLAZOR
+        
     };
     public static readonly string[] RELEVANTIDES =
     {
-        VS,
-        VSCODE,
-        ECLIPSE
+        
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        UNREAL,
-        UNITY,
+        
     };
     public static readonly string[] RELEVANTOS =
     {
@@ -139,15 +130,16 @@ internal class Skills
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        MSOFFICE,
-        GITHUB,
-        GIT,
+        REDIS,
+        DOCKER,
+        K8S,
+        GIT
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
-        CREATIVITY,
-        AUTO,
         TEAMWORK,
+        ADAPT,
+        PROBLEM,
         TIME,
     };
     // ---- EDIT END HERE ----
