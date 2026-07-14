@@ -4,6 +4,7 @@ Change these for every new resume:
 ResumeSettings.cs:
 - CURRENTLANGUAGE
 - FILENAMEEXTRA
+- INCLUDEINTERESTS
 - JOBPOSITION
 - SORTINGMETHOD
 
@@ -14,7 +15,7 @@ For each company,
 For each position,
 - Accomplishments
 
-Skills.cs:
+SkillsAndInterests.cs:
 - RELEVANTHARDSKILLS
 - RELEVANTLANGUAGES
 - RELEVANTFRAMEWORKS
@@ -23,3 +24,4 @@ Skills.cs:
 - RELEVANTOS
 - RELEVANTSOFTWARE
 - RELEVANTSOFTSKILLS
+- INTERESTS

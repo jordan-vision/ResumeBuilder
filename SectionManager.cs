@@ -10,6 +10,7 @@ class SectionManager
         EDUCATION,
         SKILLS,
         LANGUAGES,
+        INTERESTS,
         WORKEXPERIENCE,
         VOLUNTEERING
     }
@@ -44,6 +45,11 @@ class SectionManager
                     case Sections.LANGUAGES:
                         title = Translations.Get("languagesTitle");
                         sectionContent = c => AddLanguagesContent(c);
+                        break;
+
+                    case Sections.INTERESTS:
+                        title = Translations.Get("interestsTitle");
+                        sectionContent = c => AddInterestsContent(c);
                         break;
 
                     case Sections.WORKEXPERIENCE:
@@ -106,7 +112,7 @@ class SectionManager
         columnDescriptor.Item().Text(Translations.Get("concordia")).Bold();
 
         // Bulllet points
-        Utilities.BulletPoint(columnDescriptor, Translations.Get("compsci"));
+        Utilities.BulletPoint(columnDescriptor, $"{Translations.Get("compsci")}, {Translations.Get("distinction")}");
         Utilities.BulletPoint(columnDescriptor, "GPA: 3.71");
         Utilities.BulletPoint(columnDescriptor, Translations.Get("deansList"));
     }
@@ -114,62 +120,62 @@ class SectionManager
     public static void AddSkillsContent(ColumnDescriptor columnDescriptor)
     {
         // Add hard skills
-        foreach (var skill in Skills.RELEVANTHARDSKILLS)
+        foreach (var skill in SkillsAndInterests.RELEVANTHARDSKILLS)
         {
             Utilities.BulletPoint(columnDescriptor, Translations.Get(skill));
         }
 
         // Add programming languages as a single bullet point
-        var languages = String.Join(", ", Skills.RELEVANTLANGUAGES);
+        var languages = String.Join(", ", SkillsAndInterests.RELEVANTLANGUAGES);
         if (languages.Length != 0)
         {
             Utilities.BulletPoint(columnDescriptor, languages);
         }
 
         // Add frameworks and libraries as a single bullet point
-        var frameworks = String.Join(", ", Skills.RELEVANTFRAMEWORKS);
+        var frameworks = String.Join(", ", SkillsAndInterests.RELEVANTFRAMEWORKS);
         if (frameworks.Length != 0)
         {
             Utilities.BulletPoint(columnDescriptor, frameworks);
         }
 
         // Add IDEs as a single bullet point
-        var ides = String.Join(", ", Skills.RELEVANTIDES);
+        var ides = String.Join(", ", SkillsAndInterests.RELEVANTIDES);
         if (ides.Length != 0)
         {
             Utilities.BulletPoint(columnDescriptor, ides);
         }
 
         // Add game engines as a single bullet point
-        var gameEngines = String.Join(", ", Skills.RELEVANTGAMEENGINES);
+        var gameEngines = String.Join(", ", SkillsAndInterests.RELEVANTGAMEENGINES);
         if (gameEngines.Length != 0)
         {
             Utilities.BulletPoint(columnDescriptor, gameEngines);
         }
 
         // Add OSes as a single bullet point
-        var os = String.Join(", ", Skills.RELEVANTOS);
+        var os = String.Join(", ", SkillsAndInterests.RELEVANTOS);
         if (os.Length != 0)
         {
             Utilities.BulletPoint(columnDescriptor, os);
         }
 
         // Add terminals as a single bullet point
-        var terminals = String.Join(", ", Skills.RELEVANTTERMINALS);
+        var terminals = String.Join(", ", SkillsAndInterests.RELEVANTTERMINALS);
         if (terminals.Length != 0)
         {
             Utilities.BulletPoint(columnDescriptor, terminals);
         }
 
         // Add other software as a single bullet point
-        var software = String.Join(", ", Skills.RELEVANTSOFTWARE);
+        var software = String.Join(", ", SkillsAndInterests.RELEVANTSOFTWARE);
         if (software.Length != 0)
         {
             Utilities.BulletPoint(columnDescriptor, software);
         }
 
         // Add soft skills
-        foreach (var skill in Skills.RELEVANTSOFTSKILLS)
+        foreach (var skill in SkillsAndInterests.RELEVANTSOFTSKILLS)
         {
             Utilities.BulletPoint(columnDescriptor, Translations.Get(skill));
         }
@@ -190,6 +196,15 @@ class SectionManager
         }
 
         Utilities.BulletPoint(columnDescriptor, Translations.Get("spanish"));
+    }
+
+    public static void AddInterestsContent(ColumnDescriptor columnDescriptor)
+    {
+        // Add interests
+        foreach (var interest in SkillsAndInterests.RELEVANTINTERESTS)
+        {
+            Utilities.BulletPoint(columnDescriptor, Translations.Get(interest));
+        }
     }
 
     public static void AddExperienceContent(ColumnDescriptor columnDescriptor, List<Job> experience)

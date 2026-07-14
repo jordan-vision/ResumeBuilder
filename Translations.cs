@@ -23,10 +23,12 @@ class Translations
             { "languagesTitle", "LANGUAGES" },
             { "workExperienceTitle", "WORK EXPERIENCE" },
             { "volunteeringTitle", "VOLUNTEERING & PERSONAL PROJECTS" },
+            { "interestsTitle", "INTERESTS" },
 
             // Education
             { "concordia", "CONCORDIA UNIVERSITY" },
             { "compsci", "Bachelor of Computer Science" },
+            { "distinction", "with distinction" },
             { "deansList", "Dean’s List 2022-2023 & 2023-2024" },
 
             // Skills
@@ -52,6 +54,10 @@ class Translations
             { "vr", "Virtual Reality Development" },
             { "prototyping", "Prototyping" },
             { "embedded", "Embedded Systems Programming" },
+            { "production", "Music Production" },
+            { "composition", "Music Composition" },
+            { "sounddesign", "Sound Design" },
+            { "customer", "Customer Service" },
 
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
@@ -61,6 +67,10 @@ class Translations
             { "organization", "Organization" },
             { "time", "Time Management" },
             { "creativity", "Creativity" },
+            { "multitasking", "Multitasking" },
+
+            { "music", "Music - making, listening, performing, analyzing" },
+            { "tech", "Technology - programming, mathematics, computers" },
 
             // Languages
             { "english", "English: Fluent" },
@@ -143,6 +153,7 @@ class Translations
             // Music club
             { "musicclub", "Concordia Music Club" },
             { "cofounderexecutive", "Co-founder & Executive" },
+            { "musicclubduties", "Organized jam sessions for musicians at Concordia University outside of the music department" },
 
             // Game Lab
             { "gamelab", "Ubisoft Game Lab" },
@@ -178,13 +189,15 @@ class Translations
             { "languagesTitle", "LANGUES" },
             { "workExperienceTitle", "EXPÉRIENCE PROFESSIONELLE" },
             { "volunteeringTitle", "VOLONTARIAT ET PROJETS PERSONNELS" },
+            { "interestsTitle", "INTÉRÊTS" },
 
             // Educaation
             { "concordia", "UNIVERSITÉ CONCORDIA" },
             { "compsci", "Bachelor en Informatique" },
+            { "distinction", "avec mention" },
             { "deansList", "Liste du Doyen 2022-2023 et 2023-2024" },
 
-            // Skills
+            // Skills & Interests
             { "fullstack", "Développement Fullstack" },
             { "devops", "DevOps" },
             { "databases", "Bases de Données" },
@@ -207,6 +220,10 @@ class Translations
             { "vr", "Développement d'Appications en Réalité Virtuelle" },
             { "prototyping", "Prototyping" },
             { "embedded", "Programmation de Systèmes Embarqués" },
+            { "production", "Production Musicale" },
+            { "composition", "Composition Musicale" },
+            { "sounddesign", "Design Sonore" },
+            { "customer", "Service à la clientèle" },
 
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Esprit d'Équipe" },
@@ -216,6 +233,10 @@ class Translations
             { "organization", "Organisation" },
             { "time", "Gestion du Temps" },
             { "creativity", "Créativité" },
+            { "multitasking", "Multitâche" },
+
+            { "music", "Musique - créer, écouter, jouer, analyser" },
+            { "tech", "Technologie - programmation, mathématiques, ordinatuers" },
 
             // Languages
             { "english", "Anglais: Courant" },
@@ -298,6 +319,7 @@ class Translations
             // Music club
             { "musicclub", "Club de Musique de Concordia" },
             { "cofounderexecutive", "Co-fondateur et Membre du Corps Exécutif" },
+            { "musicclubduties", "Organiser des sessions de jam pour les musiciens à Concordia en dehors du département de musique" },
 
             // Game Lab
             { "gamelab", "Concours Universitaire Ubisoft" },

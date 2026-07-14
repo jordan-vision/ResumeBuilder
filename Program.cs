@@ -60,6 +60,11 @@ public class Program
                                 SectionManager.AddSection(y, SectionManager.Sections.EDUCATION);
                                 SectionManager.AddSection(y, SectionManager.Sections.SKILLS);
                                 SectionManager.AddSection(y, SectionManager.Sections.LANGUAGES);
+
+                                if (ResumeSettings.INCLUDEINTERESTS)
+                                {
+                                    SectionManager.AddSection(y, SectionManager.Sections.INTERESTS);
+                                }
                             });
 
                         // Right column sections

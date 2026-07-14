@@ -1,6 +1,6 @@
 ﻿namespace ResumeBuilder;
 
-internal class Skills
+internal class SkillsAndInterests
 {
     // Hard skills
     const string FULLSTACK = "fullstack";
@@ -25,6 +25,10 @@ internal class Skills
     const string VR = "vr";
     const string PROTO = "prototyping";
     const string EMBED = "embedded";
+    const string PROD = "production";
+    const string COMPO = "composition";
+    const string SOUND = "sounddesign";
+    const string CUSTOMER = "customer";
 
     // Languages
     const string CSHARP = "C#";
@@ -91,32 +95,27 @@ internal class Skills
     const string ORG = "organization";
     const string TIME = "time";
     const string CREATIVITY = "creativity";
+    const string MULTITASK = "multitasking";
 
+    // Interests
+    const string MUSIC = "music";
+    const string TECH = "tech";
 
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        FRONTEND,
-        UI,
-        WEB,
-        DEVOPS,
-        CICD
+        PROD,
+        COMPO,
+        CUSTOMER,
+        SOUND
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        TS,
-        HTML,
-        CSHARP,
-        PYTHON
+        
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        ANGULAR,
-        NODE,
-        DOTNET,
-        DOTNETCORE,
-        ASP,
-        REACT
+        
     };
     public static readonly string[] RELEVANTIDES =
     {
@@ -136,15 +135,19 @@ internal class Skills
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        AZURE,
-        AWS,
-        GIT,
-        GITLAB
+        
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
         AUTO,
+        ORG,
+        MULTITASK,
         TEAMWORK
+    };
+    public static readonly string[] RELEVANTINTERESTS =
+    {
+        MUSIC,
+        TECH,
     };
     // ---- EDIT END HERE ----
 }
