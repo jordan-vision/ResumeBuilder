@@ -21,9 +21,9 @@ internal class ResumeSettings
 
     // ---- EDIT START HERE ----
     public const string CURRENTLANGUAGE = Translations.ENGLISH;
-    public const string FILENAMEEXTRA = "landr support & distribution";
-    public const bool INCLUDEINTERESTS = true;
-    const JobPositions JOBPOSITION = JobPositions.Dev;
+    public const string FILENAMEEXTRA = "freemotion unity dev";
+    public const bool INCLUDEINTERESTS = false;
+    const JobPositions JOBPOSITION = JobPositions.Game;
     public const SortingMethod SORTINGMETHOD = SortingMethod.Start;
     // ---- EDIT END HERE ----
 

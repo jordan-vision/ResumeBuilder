@@ -104,26 +104,35 @@ internal class SkillsAndInterests
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        PROD,
-        COMPO,
-        CUSTOMER,
-        SOUND
+        GAMEDEV,
+        OOP,
+        ONLINE,
+        QA,
+        PROTO
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
-        
+        CSHARP,
+        CPP,
+        JAVA,
+        PYTHON,
+        TS
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        
+        DOTNET,
+        ASP,
+        OPENGL
     };
     public static readonly string[] RELEVANTIDES =
     {
-        
+        VS,
+        VSCODE
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        
+        UNITY,
+        UNREAL,
     };
     public static readonly string[] RELEVANTOS =
     {
@@ -135,19 +144,21 @@ internal class SkillsAndInterests
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        
+        GIT,
+        GITHUB,
+        GITLAB,
+        BLENDER
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
-        AUTO,
+        TIME,
+        PROBLEM,
         ORG,
-        MULTITASK,
         TEAMWORK
     };
     public static readonly string[] RELEVANTINTERESTS =
     {
-        MUSIC,
-        TECH,
+        
     };
     // ---- EDIT END HERE ----
 }
