@@ -12,7 +12,7 @@ class SectionManager
         LANGUAGES,
         INTERESTS,
         WORKEXPERIENCE,
-        VOLUNTEERING
+        EXTRACURRICULAR
     }
 
     public static void AddSection(ColumnDescriptor column, Sections section)
@@ -57,9 +57,9 @@ class SectionManager
                         sectionContent = c => AddExperienceContent(c, JobManager.WorkExperience);
                         break;
 
-                    case Sections.VOLUNTEERING:
-                        title = Translations.Get("volunteeringTitle");
-                        sectionContent = c => AddExperienceContent(c, JobManager.Volunteering);
+                    case Sections.EXTRACURRICULAR:
+                        title = Translations.Get("extracurricularTitle");
+                        sectionContent = c => AddExperienceContent(c, JobManager.Extracurricular);
                         break;
 
                     default:
@@ -77,31 +77,37 @@ class SectionManager
 
     public static void AddContactContent(ColumnDescriptor columnDescriptor)
     {
-        // Phone number
-        Utilities.BulletPoint(columnDescriptor, "+1 438 866 2667", "Resources/phone-icon.svg");
-
-        // Email adress
-        Utilities.BulletPoint(columnDescriptor, "jordanbossoulcb@gmail.com", "Resources/email-icon.svg");
-
-        // Itch link
         columnDescriptor.Item().Row(row =>
         {
-            row.ConstantItem(FormattingSettings.FONTSIZE).Svg("Resources/website-icon.svg");
-            row.RelativeItem().Text(text =>
-            {
-                text.Span(" ");
-                text.Hyperlink("jo-garden.itch.io", "http://jo-garden.itch.io").Underline();
-            });
+            // Phone number
+            Utilities.BulletPoint(row, "+1 438 866 2667", "Resources/phone-icon.svg");
+
+            // Email adress
+            Utilities.BulletPoint(row, "jordanbossoulcb@gmail.com", "Resources/email-icon.svg");
         });
 
-        // LinkedIn link
         columnDescriptor.Item().Row(row =>
         {
-            row.ConstantItem(FormattingSettings.FONTSIZE).Svg("Resources/linkedin-icon.svg");
-            row.RelativeItem().Text(text =>
+            // Itch link
+            row.RelativeItem().Row(subRow =>
             {
-                text.Span(" ");
-                text.Hyperlink("linkedin.com/in/jordan-bossou", "http://linkedin.com/in/jordan-bossou").Underline();
+                subRow.ConstantItem(FormattingSettings.FONTSIZE).Svg("Resources/website-icon.svg");
+                subRow.AutoItem().Text(text =>
+                {
+                    text.Span(" ");
+                    text.Hyperlink("jo-garden.itch.io", "http://jo-garden.itch.io").Underline();
+                });
+            });
+
+            // LinkedIn link
+            row.RelativeItem().Row(subRow =>
+            {
+                subRow.ConstantItem(FormattingSettings.FONTSIZE).Svg("Resources/linkedin-icon.svg");
+                subRow.AutoItem().Text(text =>
+                {
+                    text.Span(" ");
+                    text.Hyperlink("linkedin.com/in/jordan-bossou", "http://linkedin.com/in/jordan-bossou").Underline();
+                });
             });
         });
     }
@@ -120,9 +126,11 @@ class SectionManager
     public static void AddSkillsContent(ColumnDescriptor columnDescriptor)
     {
         // Add hard skills
-        foreach (var skill in SkillsAndInterests.RELEVANTHARDSKILLS)
+        var hardSkillsTranslated = SkillsAndInterests.RELEVANTHARDSKILLS.Select(skill => Translations.Get(skill));
+        var hardSkills = String.Join(", ", hardSkillsTranslated);
+        if (hardSkills.Length != 0)
         {
-            Utilities.BulletPoint(columnDescriptor, Translations.Get(skill));
+            Utilities.BulletPoint(columnDescriptor, hardSkills);
         }
 
         // Add programming languages as a single bullet point
@@ -175,9 +183,11 @@ class SectionManager
         }
 
         // Add soft skills
-        foreach (var skill in SkillsAndInterests.RELEVANTSOFTSKILLS)
+        var softSkillsTranslated = SkillsAndInterests.RELEVANTSOFTSKILLS.Select(skill => Translations.Get(skill));
+        var softSkills = String.Join(", ", softSkillsTranslated);
+        if (softSkills.Length != 0)
         {
-            Utilities.BulletPoint(columnDescriptor, Translations.Get(skill));
+            Utilities.BulletPoint(columnDescriptor, softSkills);
         }
     }
 
@@ -211,7 +221,7 @@ class SectionManager
     {
         // Get all jobs
         JobManager.SetupJobs();
-        JobManager.SetupVolunteering();
+        JobManager.SetupExtraCurricular();
 
         var jobList = experience.Where(x => x.Include);
         
@@ -231,22 +241,17 @@ class SectionManager
             columnDescriptor.Item().Text(Translations.Get(job.Company)).Bold(); // Company name
             foreach (var position in job.Positions)
             {
-                columnDescriptor.Item().Row(row =>
+                // Each position
+                columnDescriptor.Item().PaddingLeft(FormattingSettings.TAB).Row(row =>
                 {
                     // Position and start/end
                     row.AutoItem().Text(Translations.Get(position.Title));
                     row.RelativeItem().Text(Translations.Dates(position.StartMonth, position.EndMonth)).AlignRight();
 
-                    // Move on to the next job if I don't wish to include achievements
-                    if (!job.ShowDetails)
-                    {
-                        return;
-                    }
-
                     // Achievements, in bullet points
                     foreach (var accomplishment in position.Accomplishments)
                     {
-                        Utilities.BulletPoint(columnDescriptor, Translations.Get(accomplishment));
+                        Utilities.BulletPoint(columnDescriptor, Translations.Get(accomplishment), 1);
                     }
                 });
             }

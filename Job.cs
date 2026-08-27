@@ -4,7 +4,7 @@ class Job(string company)
 {
     public string Company = company;
     public List<Position> Positions = [];
-    public bool Include, ShowDetails;
+    public bool Include;
 }
 
 class Position(string title, (int, int) startMonth, (int, int) endMonth)

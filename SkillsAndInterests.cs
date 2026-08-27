@@ -29,6 +29,7 @@ internal class SkillsAndInterests
     const string COMPO = "composition";
     const string SOUND = "sounddesign";
     const string CUSTOMER = "customer";
+    const string DEBUG = "debug";
 
     // Languages
     const string CSHARP = "C#";
@@ -96,6 +97,8 @@ internal class SkillsAndInterests
     const string TIME = "time";
     const string CREATIVITY = "creativity";
     const string MULTITASK = "multitasking";
+    const string EXPLAIN = "explain";
+    const string PATIENCE = "patience";
 
     // Interests
     const string MUSIC = "music";
@@ -106,33 +109,27 @@ internal class SkillsAndInterests
     {
         GAMEDEV,
         OOP,
-        ONLINE,
-        QA,
-        PROTO
+        UI,
+        DEBUG,
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
         CSHARP,
-        CPP,
-        JAVA,
-        PYTHON,
+        HTML,
         TS
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
         DOTNET,
-        ASP,
-        OPENGL
     };
     public static readonly string[] RELEVANTIDES =
     {
         VS,
-        VSCODE
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
         UNITY,
-        UNREAL,
+        UNREAL
     };
     public static readonly string[] RELEVANTOS =
     {
@@ -151,10 +148,12 @@ internal class SkillsAndInterests
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
-        TIME,
+        EXPLAIN,
+        PATIENCE,
         PROBLEM,
-        ORG,
-        TEAMWORK
+        TEAMWORK,
+        CREATIVITY,
+        ORG
     };
     public static readonly string[] RELEVANTINTERESTS =
     {

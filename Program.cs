@@ -1,9 +1,7 @@
-﻿using PdfSharp.Pdf.IO;
-using QuestPDF.Fluent;
+﻿using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using ResumeBuilder;
-using System.Text;
 
 public class Program
 {   
@@ -49,44 +47,22 @@ public class Program
 
                 // Page content
                 page.Content()
-                    .PaddingTop(FormattingSettings.BODYPADDING)
-                    .Row(x =>
+                    .Column(y =>
                     {
-                        // Left column sections
-                        x.RelativeItem(FormattingSettings.SIDEBARFACTOR).BorderRight(FormattingSettings.LINEWIDTH)
-                            .Column(y =>
-                            {
-                                SectionManager.AddSection(y, SectionManager.Sections.CONTACT);
-                                SectionManager.AddSection(y, SectionManager.Sections.EDUCATION);
-                                SectionManager.AddSection(y, SectionManager.Sections.SKILLS);
-                                SectionManager.AddSection(y, SectionManager.Sections.LANGUAGES);
+                        SectionManager.AddSection(y, SectionManager.Sections.CONTACT);
+                        SectionManager.AddSection(y, SectionManager.Sections.WORKEXPERIENCE);
+                        SectionManager.AddSection(y, SectionManager.Sections.EDUCATION);
+                        SectionManager.AddSection(y, SectionManager.Sections.EXTRACURRICULAR);
+                        SectionManager.AddSection(y, SectionManager.Sections.SKILLS);
+                        SectionManager.AddSection(y, SectionManager.Sections.LANGUAGES);
 
-                                if (ResumeSettings.INCLUDEINTERESTS)
-                                {
-                                    SectionManager.AddSection(y, SectionManager.Sections.INTERESTS);
-                                }
-                            });
-
-                        // Right column sections
-                        x.RelativeItem(1 - FormattingSettings.SIDEBARFACTOR)
-                            .Column(y => 
-                            {
-                                SectionManager.AddSection(y, SectionManager.Sections.WORKEXPERIENCE);
-                                SectionManager.AddSection(y, SectionManager.Sections.VOLUNTEERING);
-                            });
+                        if (ResumeSettings.INCLUDEINTERESTS)
+                        {
+                            SectionManager.AddSection(y, SectionManager.Sections.INTERESTS);
+                        }
                     });
             });
         })
         .GeneratePdf(completeFileName);
-
-        // Limit to 1 page
-        using (var pdfDocument = PdfReader.Open(completeFileName, PdfDocumentOpenMode.Modify))
-        {
-            while (pdfDocument.PageCount > 1)
-            {
-                pdfDocument.Pages.RemoveAt(1);
-            }
-            pdfDocument.Save(completeFileName);
-        }
     }
 }

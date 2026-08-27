@@ -22,7 +22,7 @@ class Translations
             { "skillsTitle", "SKILLS" },
             { "languagesTitle", "LANGUAGES" },
             { "workExperienceTitle", "WORK EXPERIENCE" },
-            { "volunteeringTitle", "VOLUNTEERING & PERSONAL PROJECTS" },
+            { "extracurricularTitle", "EXTRACURRICULAR" },
             { "interestsTitle", "INTERESTS" },
 
             // Education
@@ -58,6 +58,7 @@ class Translations
             { "composition", "Music Composition" },
             { "sounddesign", "Sound Design" },
             { "customer", "Customer Service" },
+            { "debug", "Debugging" },
 
             { "problem", "Problem Solving" },
             { "teamwork", "Teamwork & Communication" },
@@ -68,6 +69,8 @@ class Translations
             { "time", "Time Management" },
             { "creativity", "Creativity" },
             { "multitasking", "Multitasking" },
+            { "explain", "Explaining Complicated Concepts" },
+            { "patience", "Patience and Active Listening" },
 
             { "music", "Music - making, listening, performing, analyzing" },
             { "tech", "Technology - programming, mathematics, computers" },
@@ -102,6 +105,8 @@ class Translations
             // Concordia
             { "concordiawork", "Concordia University" },
             { "mathtutor", "Math Tutor" },
+
+            { "concordiastudents", "Gave one-on-one math tutoring sessions to over 100 university students." },
 
             // TransPerfect
             { "transperfect", "TransPerfect" },
@@ -146,7 +151,7 @@ class Translations
             // CGD
             { "cgd", "Concordia Game Development" },
             { "techhead", "Head of Technology" },
-            { "cgdwebsite", "Managed and contributed to the development of the official Concordia Game Development website, using React and TypeScript" },
+            { "cgdwebsite", "Managed and contributed to the development of the official website, using React and TypeScript" },
             { "techstaff", "Tech Staff" },
             { "cgddiscord", "Developed a Discord bot for staff productivity in Python" },
 
@@ -188,7 +193,7 @@ class Translations
             { "skillsTitle", "COMPÉTENCES" },
             { "languagesTitle", "LANGUES" },
             { "workExperienceTitle", "EXPÉRIENCE PROFESSIONELLE" },
-            { "volunteeringTitle", "VOLONTARIAT ET PROJETS PERSONNELS" },
+            { "extracurricularTitle", "PARASCOLAIRE" },
             { "interestsTitle", "INTÉRÊTS" },
 
             // Educaation
@@ -224,6 +229,7 @@ class Translations
             { "composition", "Composition Musicale" },
             { "sounddesign", "Design Sonore" },
             { "customer", "Service à la clientèle" },
+            { "debug", "Débogage" },
 
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Esprit d'Équipe" },
@@ -234,6 +240,8 @@ class Translations
             { "time", "Gestion du Temps" },
             { "creativity", "Créativité" },
             { "multitasking", "Multitâche" },
+            { "explain", "Expliquer de Concepts Compliqués" },
+            { "patience", "Patience et Écoute Active" },
 
             { "music", "Musique - créer, écouter, jouer, analyser" },
             { "tech", "Technologie - programmation, mathématiques, ordinatuers" },
@@ -269,6 +277,8 @@ class Translations
             { "concordiawork", "Université Concordia" },
             { "mathtutor", "Tuteur de Mathénatiques" },
 
+            { "concordiastudents", "Donner des sessions de tutorat individuelles en mathématiques à plus de 100 étudiants universitaires" },
+
             // TransPerfect
             { "transperfect", "TransPerfect" },
             { "dataannotator", "Annotateur de Données Linguistiques" },
@@ -281,7 +291,7 @@ class Translations
             { "ubisoftwpf", "Développer une application web WPF avec Blazor et C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud" },
             { "ubisoftaaa", "Développer une application web pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud pour le développement de jeux AAA" },
 
-            { "ubisoftagile", "Travailler dans une équipe Agile compétente avec GitLab, et discuter des potentielles améliorations de performance et d'ergonomie" },
+            { "ubisoftagile", "Travailler dans une équipe Agile compétente avec GitLab, et discuter des potentielles améliorations de la performance et de l'ergonomie" },
 
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
 
@@ -312,7 +322,7 @@ class Translations
             // CGD
             { "cgd", "Concordia Game Development" },
             { "techhead", "Directeur Technique" },
-            { "cgdwebsite", "Gérer et contribuer au the développement du site officiel de Concordia Game Development, avec React et TypeScript" },
+            { "cgdwebsite", "Gérer et contribuer au the développement du site officiel avec React et TypeScript" },
             { "techstaff", "Personnel Technique" },
             { "cgddiscord", "Développer un bot Discord pour la productivité du personnel en Python" },
 

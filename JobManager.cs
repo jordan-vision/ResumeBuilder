@@ -3,10 +3,10 @@
 class JobManager
 {
     public static List<Job> WorkExperience = [];
-    public static List<Job> Volunteering = [];
+    public static List<Job> Extracurricular = [];
 
     static bool jobsSetup = false;
-    static bool volunteeringSetup = false;
+    static bool extracurricularSetup = false;
 
     public static void SetupJobs()
     {
@@ -54,45 +54,39 @@ class JobManager
         // ---- EDIT START HERE ----
         // Vretta
         vretta.Include = true;
-        vretta.ShowDetails = true;
-        vrettaSoftware.Accomplishments.Add("vrettastudentscanada");
+        vrettaSoftware.Accomplishments.Add("vrettastudents");
+        vrettaSoftware.Accomplishments.Add("vrettacss");
         vrettaSoftware.Accomplishments.Add("vrettasql");
-        vrettaSoftware.Accomplishments.Add("vrettadoc");
         
         //Hogg
         hogg.Include = false;
-        hogg.ShowDetails = false;
 
         // Concordia
         concordia.Include = true;
-        concordia.ShowDetails = false;
+        concordiaTutor.Accomplishments.Add("concordiastudents");
 
         // TransPerfect
         transperfect.Include = false;
-        transperfect.ShowDetails = false;
 
         // Ubisoft
         ubisoft.Include = true;
-        ubisoft.ShowDetails = true;
-        ubisoftIntern.Accomplishments.Add("ubisoftaaa");
+        ubisoftIntern.Accomplishments.Add("ubisoftcicd");
         ubisoftIntern.Accomplishments.Add("ubisoftblazor");
-        ubisoftIntern.Accomplishments.Add("ubisoftshell");
+        ubisoftIntern.Accomplishments.Add("ubisoftagile");
 
         // Genetec
         genetec.Include = true;
-        genetec.ShowDetails = true;
         genetecIntern.Accomplishments.Add("geneteccameraoop");
         genetecIntern.Accomplishments.Add("genetecbackend");
         genetecIntern.Accomplishments.Add("genetecdevops");
-        //genetecIntern.Accomplishments.Add("genetecsoen");
         // ---- EDIT END HERE ----
 
         jobsSetup = true;
     }
 
-    public static void SetupVolunteering()
+    public static void SetupExtraCurricular()
     {
-        if (volunteeringSetup)
+        if (extracurricularSetup)
         {
             return;
         }
@@ -103,69 +97,63 @@ class JobManager
         Job cgd = new("cgd");
         cgd.Positions.Add(cgdHead);
         cgd.Positions.Add(cgdStaff);
-        Volunteering.Add(cgd);
+        Extracurricular.Add(cgd);
 
         // Music Club
         Position musicClubCofounder = new("cofounderexecutive", (10, 22), (9, 25));
         Job musicClub = new("musicclub");
         musicClub.Positions.Add(musicClubCofounder);
-        Volunteering.Add(musicClub);
+        Extracurricular.Add(musicClub);
 
         // Game Lab
         Position gameLabProgrammer = new("uiprogrammer", (2, 24), (4, 24));
         Job gameLab = new("gamelab");
         gameLab.Positions.Add(gameLabProgrammer);
-        Volunteering.Add(gameLab);
+        Extracurricular.Add(gameLab);
 
         // Somm
         Position sommTeacher = new("pianoteacher", (2, 22), (4, 22));
         Job somm = new("somm");
         somm.Positions.Add(sommTeacher);
-        Volunteering.Add(somm);
+        Extracurricular.Add(somm);
 
         // VRConcert
         Position vrconcertprogrammer = new("designerprogrammer", (3, 24), (3, 24));
         Job vrconcert = new("vrconcert");
         vrconcert.Positions.Add(vrconcertprogrammer);
-        Volunteering.Add(vrconcert);
+        Extracurricular.Add(vrconcert);
 
         // Game jams
         Position gamejamparticipant = new("participant", (7, 20), (10, 24));
         Job gamejams = new("gamejams");
         gamejams.Positions.Add(gamejamparticipant);
-        Volunteering.Add(gamejams);
+        Extracurricular.Add(gamejams);
 
         // ---- EDIT START HERE----
         // CGD
-        cgd.Include = false;
-        cgd.ShowDetails = false;
+        cgd.Include = true;
         cgdHead.Accomplishments.Add("cgdwebsite");
 
         // Music Club
         musicClub.Include = false;
-        musicClub.ShowDetails = false;
         musicClubCofounder.Accomplishments.Add("musicclubduties");
 
         // Game Lab
         gameLab.Include = true;
-        gameLab.ShowDetails = true;
         gameLabProgrammer.Accomplishments.Add("gamelablan");
 
         // Somm
         somm.Include = false;
-        somm.ShowDetails = false;
 
         // VRConcert
         vrconcert.Include = false;
-        vrconcert.ShowDetails = false;
         vrconcertprogrammer.Accomplishments.Add("vrconcertdescription");
 
         // Game jams
-        gamejams.Include = true;
-        gamejams.ShowDetails = true;
+        gamejams.Include = false;
         gamejamparticipant.Accomplishments.Add("topspots");
         // ---- EDIT END HERE ----
 
-        volunteeringSetup = true;
+        extracurricularSetup = true;
     }
 }

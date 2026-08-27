@@ -17,11 +17,11 @@ internal class ResumeSettings
         End
     }
 
-    public const string PATH = "C:\\Users\\byjor\\Desktop\\Work\\Work Search 3\\New Resumes";
+    public const string PATH = "C:\\Users\\byjor\\Desktop\\Work\\Work Search 3\\Test";
 
     // ---- EDIT START HERE ----
-    public const string CURRENTLANGUAGE = Translations.ENGLISH;
-    public const string FILENAMEEXTRA = "freemotion unity dev";
+    public const string CURRENTLANGUAGE = Translations.FRENCH;
+    public const string FILENAMEEXTRA = "test";
     public const bool INCLUDEINTERESTS = false;
     const JobPositions JOBPOSITION = JobPositions.Game;
     public const SortingMethod SORTINGMETHOD = SortingMethod.Start;
