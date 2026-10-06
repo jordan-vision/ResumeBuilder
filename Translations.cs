@@ -59,9 +59,11 @@ class Translations
             { "sounddesign", "Sound Design" },
             { "customer", "Customer Service" },
             { "debug", "Debugging" },
+            { "tutoring", "Tutoring" },
+            { "teach", "Teaching" },
 
             { "problem", "Problem Solving" },
-            { "teamwork", "Teamwork & Communication" },
+            { "teamwork", "Teamwork and Communication" },
             { "mentorship", "Mentorship" },
             { "adaptability", "Adaptability" },
             { "autonomy", "Autonomy" },
@@ -72,8 +74,10 @@ class Translations
             { "explain", "Explaining Complicated Concepts" },
             { "patience", "Patience and Active Listening" },
 
-            { "music", "Music - making, listening, performing, analyzing" },
-            { "tech", "Technology - programming, mathematics, computers" },
+            { "music", "Music - composing, performing, analyzing, concerts" },
+            { "tech", "Technology - programming, computers, algorithms" },
+            { "math", "Mathematics - puzzles, teaching, abstraction" },
+            { "games", "Games - board games, game design" },
 
             // Languages
             { "english", "English: Fluent" },
@@ -84,17 +88,17 @@ class Translations
             { "vretta", "Vretta" },
             { "softwaredev", "Software Developer" },
 
-            { "vrettastudents", "Developed an online platform with Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
-            { "vrettastudentscanada", "Developed an online platform, with the purpose of designing assessments for over 800,000 students in 4 Canadian provinces" },
-            { "vrettanode", "Developed an online platform with Node.js, TypeScript, and Angular, with the purpose of designing assessments for over 800,000 students in 4 provinces" },
+            { "vrettastudents", "Developed an online school assessment platform with Angular used by 800,000+ students in 4 provinces" },
+            { "vrettastudentscanada", "Developed an online school assessment platform used by 800,000+ K-12 students in 4 Canadian provinces" },
+            { "vrettanode", "Developed an online school assessment platform with Node.js, TypeScript, and Angular, used by 800,000+ students in 4 provinces" },
 
-            { "vrettasql", "Scripted SQL queries and API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
-            { "vrettasqlbackend", "Scripted SQL queries and back-end API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of JSON data between the database, the back-end, and the front-end" },
+            { "vrettasql", "Scripted SQL queries and API endpoints in TypeScript to optimize the transfer of hundreds of gigabytes of data in JSON format" },
 
-            { "vrettagov", "Worked closely with provincial agencies to fine-tune features to each agency's preference, ensuring customer satisfaction" },
-            { "vrettacss", "Worked closely with provincial agencies to fine-tune the UI to each agency's preference, using HTML and CSS" },
+            { "vrettagov", "Communicated with provincial agencies to fine-tune features to each agency's preference, ensuring customer satisfaction" },
+            { "vrettacss", "Communicated with provincial agencies to fine-tune the UI to each agency's preference, using CSS and HTML" },
 
             { "vrettadoc", "Documented quality assurance plans and user flows for each change in the code, allowing users and quality assurance staff to keep track of them" },
+            { "vrettanontechnical", "Documented quality assurance plans and user flows for each change in the code, allowing non-technical users and staff to keep track of them" },
             { "vrettak8s", "Documented quality assurance plans and user flows for each change in the code, to be tested in a Kubernetes environment by the quality assurance team" },
             { "vrettasop", "Documented quality assurance plans and SOPs for each change in the code, allowing users and quality assurance staff to keep track of them" },
 
@@ -106,7 +110,9 @@ class Translations
             { "concordiawork", "Concordia University" },
             { "mathtutor", "Math Tutor" },
 
-            { "concordiastudents", "Gave one-on-one math tutoring sessions to over 100 university students." },
+            { "concordiastudents", "Gave 750+ one-on-one Linear Algebra and Calculus tutoring sessions to 100+ university students" },
+            { "concordiaonline", "Helped students remotely through Zoom as well as in person, adapting my teaching style to each student's circumstances" },
+            { "concordiaexamprep", "Designed multiple mock exams and led multiple exam prep sessions explaining to hundreds of students in a Zoom call how to solve each problem" },
 
             // TransPerfect
             { "transperfect", "TransPerfect" },
@@ -118,9 +124,11 @@ class Translations
 
             { "ubisoftcicd", "Developed an ASP.NET web app in C# that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses" },
             { "ubisoftwpf", "Developed a WPF web app in Blazor and C# that distributes CI/CD pipelines across the local network, reducing cloud server expenses" },
+            { "ubisoftwpfvs", "Developed a WPF web app in C# that distributes CI/CD pipelines across the local network, reducing cloud server expenses, using Visual Studio" },
             { "ubisoftaaa", "Developed a web app that distributes CI/CD pipelines across the local network, greatly reducing cloud server expenses for developing AAA games" },
 
-            { "ubisoftagile", "Worked within an Agile team, actively contributed in discussing improvements in performance and usability, and used GitLab for version control" },
+            { "ubisoftagile", "Worked within an Agile team, actively contributed in discussing improvements in performance and UX, and used GitLab for version control" },
+            { "ubisoftdiscuss", "Discussed improvements in performance and user experience" },
 
             { "ubisoftblazor", "Constructed the app's UI from the ground up in HTML and CSS, through the Blazor framework" },
 
@@ -130,14 +138,15 @@ class Translations
             { "genetec", "Genetec" },
             { "softwaredevintern", "Software Developer Intern" },
 
-            { "geneteccamera", "Developed the infrastructure for two security camera models in .NET C#, one built for Windows and the other for Linux" },
-            { "geneteccameraoop", "Developed an object-oriented infrastructure for two security camera models in .NET C#, one built for Windows and the other for Linux" },
+            { "geneteccamera", "Developed the infrastructure for two security camera models in .NET C#, based upon Windows and Linux respectively" },
+            { "geneteccameraoop", "Developed an object-oriented infrastructure for two security camera models in .NET C#, based upon Windows and Linux respectively" },
             { "geneteccameravideo", "Developed an infrastructure for two security camera models in .NET C#, with video analysis and computer vision features" },
-            { "geneteccameraembedded", "Developed an embedded software for two security camera models in .NET C#, one built for Windows and the other for Linux" },
+            { "geneteccameraembedded", "Developed an embedded software for two security camera models in .NET C#, based upon Windows and Linux respectively" },
 
-            { "genetecport", "Ported the web portal for managing these cameras, coded in JavaScript, from React to Angular" },
+            { "genetecport", "Ported the web portal for managing these cameras, from React to Angular (Javascript)" },
 
-            { "genetecbilingual", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
+            { "genetecbilingual", "Operated within a highly French/English bilingual team and company" },
+            { "genetecbilingualagile", "Operated within a highly French/English bilingual team and company, with a focus on Agile and Kanban methods" },
 
             { "genetecmultithread", "Programming asynchronous solutions to complex multithreading problems" },
             { "genetecbackend", "Used .NET's built-in HTTP network features to program fast and foolproof back-end methods that reliably support multithreading" },
@@ -168,6 +177,7 @@ class Translations
             // Somm
             { "somm", "School of Music Montreal" },
             { "pianoteacher", "Piano Teacher" },
+            { "sommteaching", "Gave weekly piano lessons to elementary school students aged 9-12" },
 
             // VRConcert
             { "vrconcert", "VRConcert" },
@@ -230,6 +240,8 @@ class Translations
             { "sounddesign", "Design Sonore" },
             { "customer", "Service à la clientèle" },
             { "debug", "Débogage" },
+            { "tutoring", "Tutorat" },
+            { "teach", "Enseignement" },
 
             { "problem", "Résolution de problèmes" },
             { "teamwork", "Communication et Esprit d'Équipe" },
@@ -243,8 +255,10 @@ class Translations
             { "explain", "Expliquer de Concepts Compliqués" },
             { "patience", "Patience et Écoute Active" },
 
-            { "music", "Musique - créer, écouter, jouer, analyser" },
-            { "tech", "Technologie - programmation, mathématiques, ordinatuers" },
+            { "music", "Musique - composition, analyse, concerts" },
+            { "tech", "Technologie - programmation, algorithmes, ordinateurs" },
+            { "math", "Mathématiques - puzzles, enseignemnt" },
+            { "games", "Jeux - jeux de société, game design" },
 
             // Languages
             { "english", "Anglais: Courant" },
@@ -255,17 +269,17 @@ class Translations
             { "vretta", "Vretta" },
             { "softwaredev", "Développeur de Logiciels" },
 
-            { "vrettastudents", "Développer une plateforme de conception d'évaluations avec Angular, pour plus de 800,000 élèves dans 4 provinces" },
-            { "vrettastudentscanada", "Développer une plateforme de conception d'évaluations, pour plus de 800,000 élèves dans 4 provinces canadiennes" },
-            { "vrettanode", "Développer une plateforme de conception d'évaluations avec Node.js, TypeScript, et Angular, pour plus de 800,000 élèves dans 4 provinces" },
+            { "vrettastudents", "Développer une plateforme d'évaluations scolaires avec Angular utilisée par plus de 800,000 élèves dans 4 provinces" },
+            { "vrettastudentscanada", "Développer une plateforme d'évaluations scolaires utilisée par plus de 800,000 élèves dans 4 provinces canadiennes" },
+            { "vrettanode", "Développer une plateforme d'évaluations scolaires avec Node.js, TypeScript, et Angular, utilisée par plus de 800,000 élèves dans 4 provinces" },
 
-            { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
-            { "vrettasqlbackend", "Scripter des requêtes SQL et des endpoints API dans le back-end en TypeScript pour optimiser le transfert de centaines de giga-octets de données JSON entre la base de données, le back-end, et le front-end" },
+            { "vrettasql", "Scripter des requêtes SQL et des endpoints API en TypeScript pour optimiser le transfert de centaines de giga-octets de données en format JSON" },
 
-            { "vrettagov", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, assurant ainsi la satisfaction des clients" },
-            { "vrettacss", "Travailler avec les agences provinciales pout affiner les fonctionnalités selon leurs préférences, en utilisant CSS et HTML" },
+            { "vrettagov", "Communiquer avec les agences provinciales pout affiner les fonctionnalités selon les préférences de chacune, assurant ainsi la satisfaction des clients" },
+            { "vrettacss", "Communiquer avec les agences provinciales pout affiner l'interface selon les préférences de chacune, avec CSS et HTML" },
 
             { "vrettadoc", "Documenter les plans d'assurance qualité et les user flow pour chaque modification du code, afin que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
+            { "vrettanontechnical", "Documenter les plans d'assurance qualité et les user flow pour chaque modification du code, afin que les utilisateurs et le personnel non-techniques puisse en garder une trace" },
             { "vrettak8s", "Documenterles plans d'assurance qualité et les user flow pour chaque modification du code, afin que le personnel d'assurance qualité testent ces modifications dans un environnement Kubernetes" },
             { "vrettasop", "Documenterles plans d'assurance qualité et les SOP pour chaque modification du code, afin que les utilisateurs et le personnel d'assurance qualité puisse en garder une trace" },
 
@@ -277,7 +291,9 @@ class Translations
             { "concordiawork", "Université Concordia" },
             { "mathtutor", "Tuteur de Mathénatiques" },
 
-            { "concordiastudents", "Donner des sessions de tutorat individuelles en mathématiques à plus de 100 étudiants universitaires" },
+            { "concordiastudents", "Donner plus de 750 sessions de tutorat individuelles en Algèbre Linéaire et en Calculus à plus de 100 étudiants universitaires" },
+            { "concordiaonline", "Aider les étudiants à distance par Zoom et en personne, et adapter mon style d'enseignment en fonction des besoins de chaque étudiant" },
+            { "concordiaexamprep", "Concevoir des examens blancs et diriger des sessions de préparation piour examen, expliquant à des centaines d'étudiants comment répondre à chaque question" },
 
             // TransPerfect
             { "transperfect", "TransPerfect" },
@@ -289,9 +305,11 @@ class Translations
 
             { "ubisoftcicd", "Développer une application web ASP.NET en C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud" },
             { "ubisoftwpf", "Développer une application web WPF avec Blazor et C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud" },
+            { "ubisoftwpfvs", "Développer une application web WPF avec C# pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud, dans Visual Studio" },
             { "ubisoftaaa", "Développer une application web pour la distribution des pipelines CI/CD à travers le réseau local, diminuant ainsi les dépenses reliées aux serveurs cloud pour le développement de jeux AAA" },
 
-            { "ubisoftagile", "Travailler dans une équipe Agile compétente avec GitLab, et discuter des potentielles améliorations de la performance et de l'ergonomie" },
+            { "ubisoftagile", "Travailler dans une équipe Agile compétente avec GitLab, et discuter des potentielles améliorations de performance et d'expérience utilisateur" },
+            { "ubisoftdiscuss", "Discuter des potentielles améliorations de performance et d'expérience utilisateur" },
 
             { "ubisoftblazor", "Construire l'interface utilisateur à partir de zéro en HTML et CSS, à travers le framework Blazor" },
 
@@ -301,14 +319,15 @@ class Translations
             { "genetec", "Genetec" },
             { "softwaredevintern", "Stagiaire en Développement de Logiciels" },
 
-            { "geneteccamera", "Développer une infrastructure pour deux modèles de caméras de sécurité en .NET C#, l'un basé sur Windows, et l'autre sur Linux" },
-            { "geneteccameraoop", "Développer une infrastructure orientée objet pour deux modèles de caméras de sécurité en .NET C#, l'un basé sur Windows, et l'autre sur Linux" },
+            { "geneteccamera", "Développer une infrastructure pour deux modèles de caméras de sécurité en .NET C#, basés sur Windows et Linux respectivement" },
+            { "geneteccameraoop", "Développer une infrastructure orientée objet pour deux modèles de caméras de sécurité en .NET C#, basés sur Windows et Linux respectivement" },
             { "geneteccameravideo", "Développer une infrastructure pour des caméras de sécurité en .NET C#, avec des fonctions d'analyze de vidéo et de vision par ordinateur" },
-            { "geneteccameraembedded", "Développer des logiciels embarqués pour des caméras de sécurité en .NET C#, l'un basé sur Windows, et l'autre sur Linux" },
+            { "geneteccameraembedded", "Développer des logiciels embarqués pour des caméras de sécurité en .NET C#, basés sur Windows et Linux respectivement" },
 
-            { "genetecport", "Adapter le portail web pour la gestion de ces caméras, programmé avec JavaScript, de React à Angular" },
+            { "genetecport", "Adapter le portail web pour la gestion de ces caméras de React à Angular (Javascript)" },
 
-            { "genetecbilingual", "Opérer au sein d'une équipe et d'une companie hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
+            { "genetecbilingual", "Opérer au sein d'une équipe et d'une companie hautement bilingue français/anglais" },
+            { "genetecbilingualagile", "Opérer au sein d'une équipe et d'une companie hautement bilingue français/anglais, avec un focus sur les méthodes Agile et Kanban" },
 
             { "genetecmultithread", "Programmer des solutions asynchrones à des problèmes de multithreading complexes" },
             { "genetecbackend", "Utiliser les fonctionnalités réseau HTTP de .NET pour programmer des méthodes back-end en multithreading" },
@@ -322,7 +341,7 @@ class Translations
             // CGD
             { "cgd", "Concordia Game Development" },
             { "techhead", "Directeur Technique" },
-            { "cgdwebsite", "Gérer et contribuer au the développement du site officiel avec React et TypeScript" },
+            { "cgdwebsite", "Gérer et contribuer au développement du site officiel avec React et TypeScript" },
             { "techstaff", "Personnel Technique" },
             { "cgddiscord", "Développer un bot Discord pour la productivité du personnel en Python" },
 
@@ -339,6 +358,7 @@ class Translations
             // Somm
             { "somm", "School of Music Montreal" },
             { "pianoteacher", "Professeur de Piano" },
+            { "sommteaching", "Donner des leçons de piano hebdomadaires à des élèves de 9 à 12 ans en école primaire" },
 
             // VRConcert
             { "vrconcert", "VRConcert" },

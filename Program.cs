@@ -2,6 +2,7 @@
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using ResumeBuilder;
+using System.Diagnostics;
 
 public class Program
 {   
@@ -64,5 +65,11 @@ public class Program
             });
         })
         .GeneratePdf(completeFileName);
+
+        using Process fileopener = new();
+
+        fileopener.StartInfo.FileName = "explorer";
+        fileopener.StartInfo.Arguments = "\"" + completeFileName + "\"";
+        fileopener.Start();
     }
 }

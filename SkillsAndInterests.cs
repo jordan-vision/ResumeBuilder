@@ -30,6 +30,8 @@ internal class SkillsAndInterests
     const string SOUND = "sounddesign";
     const string CUSTOMER = "customer";
     const string DEBUG = "debug";
+    const string TUTOR = "tutoring";
+    const string TEACH = "teach";
 
     // Languages
     const string CSHARP = "C#";
@@ -86,6 +88,7 @@ internal class SkillsAndInterests
     const string K8S = "Kubernetes";
     const string REDIS = "Redis";
     const string GOOGLE = "Google Suite";
+    const string ZOOM = "Zoom";
 
     // Soft skills
     const string PROBLEM = "problem";
@@ -103,24 +106,29 @@ internal class SkillsAndInterests
     // Interests
     const string MUSIC = "music";
     const string TECH = "tech";
+    const string MATH = "math";
+    const string GAMES = "games";
 
     // ---- EDIT START HERE ----
     public static readonly string[] RELEVANTHARDSKILLS =
     {
-        GAMEDEV,
         OOP,
-        UI,
-        DEBUG,
+        WEB,
+        DB,
+        DEBUG
     };
     public static readonly string[] RELEVANTLANGUAGES =
     {
         CSHARP,
+        SQL,
+        JS,
         HTML,
-        TS
     };
     public static readonly string[] RELEVANTFRAMEWORKS =
     {
-        DOTNET,
+       DOTNET,
+       DOTNET,
+       WPF,
     };
     public static readonly string[] RELEVANTIDES =
     {
@@ -128,12 +136,11 @@ internal class SkillsAndInterests
     };
     public static readonly string[] RELEVANTGAMEENGINES =
     {
-        UNITY,
-        UNREAL
+           
     };
     public static readonly string[] RELEVANTOS =
     {
-        
+        WINDOWS,
     };
     public static readonly string[] RELEVANTTERMINALS =
     {
@@ -141,19 +148,14 @@ internal class SkillsAndInterests
     };
     public static readonly string[] RELEVANTSOFTWARE =
     {
-        GIT,
-        GITHUB,
-        GITLAB,
-        BLENDER
+        MSOFFICE,
     };
     public static readonly string[] RELEVANTSOFTSKILLS =
     {
-        EXPLAIN,
-        PATIENCE,
-        PROBLEM,
+        ORG,
+        ADAPT,
         TEAMWORK,
-        CREATIVITY,
-        ORG
+        PROBLEM
     };
     public static readonly string[] RELEVANTINTERESTS =
     {

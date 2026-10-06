@@ -28,7 +28,7 @@ class JobManager
         WorkExperience.Add(hogg);
 
         // Concordia
-        Position concordiaTutor = new("mathtutor", (1, 23), (12, 25));
+        Position concordiaTutor = new("mathtutor", (12, 22), (12, 25));
         Job concordia = new("concordiawork");
         concordia.Positions.Add(concordiaTutor);
         WorkExperience.Add(concordia);
@@ -54,9 +54,10 @@ class JobManager
         // ---- EDIT START HERE ----
         // Vretta
         vretta.Include = true;
-        vrettaSoftware.Accomplishments.Add("vrettastudents");
-        vrettaSoftware.Accomplishments.Add("vrettacss");
+        vrettaSoftware.Accomplishments.Add("vrettastudentscanada");
         vrettaSoftware.Accomplishments.Add("vrettasql");
+        vrettaSoftware.Accomplishments.Add("vrettacss");
+        vrettaSoftware.Accomplishments.Add("vrettanontechnical");
         
         //Hogg
         hogg.Include = false;
@@ -64,21 +65,24 @@ class JobManager
         // Concordia
         concordia.Include = true;
         concordiaTutor.Accomplishments.Add("concordiastudents");
+        //concordiaTutor.Accomplishments.Add("concordiaonline");
+        //concordiaTutor.Accomplishments.Add("concordiaexamprep");
 
         // TransPerfect
         transperfect.Include = false;
 
         // Ubisoft
         ubisoft.Include = true;
-        ubisoftIntern.Accomplishments.Add("ubisoftcicd");
+        ubisoftIntern.Accomplishments.Add("ubisoftwpfvs");
         ubisoftIntern.Accomplishments.Add("ubisoftblazor");
         ubisoftIntern.Accomplishments.Add("ubisoftagile");
 
         // Genetec
         genetec.Include = true;
-        genetecIntern.Accomplishments.Add("geneteccameraoop");
-        genetecIntern.Accomplishments.Add("genetecbackend");
-        genetecIntern.Accomplishments.Add("genetecdevops");
+        genetecIntern.Accomplishments.Add("geneteccameravideo");
+        genetecIntern.Accomplishments.Add("genetecbilingual");
+        //genetecIntern.Accomplishments.Add("genetecbackend");
+        //genetecIntern.Accomplishments.Add("genetectest");
         // ---- EDIT END HERE ----
 
         jobsSetup = true;
@@ -133,6 +137,7 @@ class JobManager
         // CGD
         cgd.Include = true;
         cgdHead.Accomplishments.Add("cgdwebsite");
+        cgdStaff.Accomplishments.Add("cgddiscord");
 
         // Music Club
         musicClub.Include = false;
@@ -144,13 +149,14 @@ class JobManager
 
         // Somm
         somm.Include = false;
+        sommTeacher.Accomplishments.Add("sommteaching");
 
         // VRConcert
-        vrconcert.Include = false;
+        vrconcert.Include = true;
         vrconcertprogrammer.Accomplishments.Add("vrconcertdescription");
 
         // Game jams
-        gamejams.Include = false;
+        gamejams.Include = true;
         gamejamparticipant.Accomplishments.Add("topspots");
         // ---- EDIT END HERE ----
 
